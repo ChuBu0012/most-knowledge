@@ -11,7 +11,8 @@ status: published
 # Git Knowledge Base
 
 > [!important] จุดเริ่มต้นใหม่
-> ใช้งานจริงให้เปิด [[Git-Daily-Playbook]] ก่อน ส่วนหน้านี้เป็นสารบัญและแผนที่ความรู้สำหรับการเรียนต่อ
+> จะ **ทำ** อะไร (commit, PR, แก้ conflict, กู้งาน) → ดูตาราง How-To ใน [[START-HERE]] ก่อน
+> หน้านี้คือแผนที่ "มันทำงานยังไง" สำหรับตอนอยากเข้าใจลึก
 >
 > กลับไปยังแผนที่รวมของ Vault: [[START-HERE]]
 
@@ -23,9 +24,9 @@ status: published
 
 ## ⚡ เริ่มต้นใช้งานด่วน (Quick Start)
 หากต้องการคู่มือที่ **กระชับ เข้าใจง่าย ไม่ซับซ้อน หยิบคำสั่งไปใช้งานได้ทันที**:
-👉 อ่านได้ที่ **[[Git-Simple-Guide]]**: สรุปเวิร์กโฟลว์ 5 สเต็ป, สูตรสำเร็จคำสั่ง, วิธีรับมือ Conflict และชุดปฐมพยาบาลเมื่อเกิดข้อผิดพลาด
+👉 เริ่มที่ **[[Git-Feature-Branch-to-PR]]** แล้วดูสูตรอื่นในโฟลเดอร์ `How-To/` (รวมไว้ที่ [[START-HERE]])
 
-สำหรับการเปิดอ่านระหว่างทำงาน ให้ใช้ **[[Git-Daily-Playbook]]** ซึ่งจัดตามสถานการณ์และลดรายละเอียดที่ไม่จำเป็น
+ค้นคำสั่งเร็วๆ: **[[Git-Command-Cheatsheet]]**
 
 ---
 
@@ -111,7 +112,7 @@ graph TD
 - [[Worktree-with-AI-Agents]]: การจัดสภาพแวดล้อมให้ AI Coding Agents (เช่น Agent A: Auth, Agent B: API, Agent C: Testing) ทำงานพร้อมกันบน Repository เดียวกันอย่างปลอดภัย
 
 ### 7. โครงการทดสอบและเอกสารอ้างอิง (Capstone & Reference)
-- [[Git-Simple-Guide]]: คู่มือฉบับเข้าใจง่ายที่สุด สรุปคำสั่งและเวิร์กโฟลว์สำหรับใช้งานจริงทันที
+- [[START-HERE]]: สูตร How-To สำหรับใช้งานจริงทันที
 - [[End-to-End-Git-Workflow]]: สถานการณ์จำลองกระบวนการพัฒนาตั้งแต่ต้นจนจบ (Section 12: In Progress)
 - [[Practical-Exercises]]: แบบฝึกหัดทดลองทำจริงพร้อมผลลัพธ์ที่คาดหวัง
 - [[Troubleshooting-Scenarios]]: กรณีศึกษาปัญหาที่พบบ่อยและแนวทางแก้ไขแบบเฉียบพลัน
@@ -126,7 +127,7 @@ graph TD
 1. **การค้นหาด้วย Graph View:** เปิด Graph View ใน Obsidian เพื่อดูการเชื่อมโยงของ Concept สำคัญ เช่น [[Git-Object-Model]] และ [[Git-Merge]]
 2. **การนำทางแบบกระโดดข้าม (Hyperlink Navigation):** ใช้ `Ctrl + Click` หรือ `Cmd + Click` บนชื่อโน้ตที่มีการเชื่อมโยง (เช่น [[Git-Merge]]) เพื่ออ่านต่อในหัวข้อที่เกี่ยวข้องได้ทันที
 3. **การอ่านตามระดับทักษะ:**
-   - **เน้นใช้งานด่วน (ไม่เน้นทฤษฎี):** อ่าน [[Git-Daily-Playbook]] แล้วค่อยดู [[Git-Simple-Guide]]
+   - **เน้นใช้งานด่วน (ไม่เน้นทฤษฎี):** เปิด How-To ใน [[START-HERE]]
    - **เริ่มต้นเรียนรู้ระบบ:** เริ่มจาก [[Git-Overview]] -> [[Git-Basic-Workflow]] -> [[Daily-Git-Commands]]
    - **ระดับกลาง (แก้งาน/กู้ประวัติ):** อ่าน [[Merge-Conflict]] -> [[Git-Reset]] -> [[Git-Reflog]]
    - **ระดับสูง (ระบบทีมและ AI):** ศึกษา [[Parallel-Development-Concept]] -> [[Worktree-Concept]] -> [[Worktree-with-AI-Agents]]

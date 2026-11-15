@@ -11,7 +11,6 @@ tags:
 # 01 - Production Workflow
 
 > **กระบวนการผลิตวิดีโอด้วยโค้ดอย่างเป็นระบบ**: ตั้งแต่การตั้งเป้าหมายเนื้อหา การเขียนบท การออกแบบ Storyboard การคัดเลือกเทคโนโลยี ไปจนถึงการเรนเดอร์และส่งมอบผลงาน  
-> **Source Reference**: สรุปและเรียบเรียงจาก [[Learn_Code_Generated_Animation_Video]]  
 > **Index**: [[00 - Code-Generated Animation]]
 
 ---

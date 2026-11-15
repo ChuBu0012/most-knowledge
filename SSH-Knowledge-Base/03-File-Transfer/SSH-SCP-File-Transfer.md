@@ -139,6 +139,6 @@ shasum -a 256 ./file.txt
 
 ## Related Notes
 
-- [[SSH-Daily-Playbook]] — เลือกคำสั่งตามงานประจำวัน
+- [[SSH-Copy-Files]] — สูตรส่ง/ดึงไฟล์แบบหยิบใช้
 - [[SSH-SFTP-File-Transfer]] — จัดการไฟล์แบบ Interactive
 - [[SSH-Command-Reference-and-Cheatsheet]] — Reference รวมคำสั่ง

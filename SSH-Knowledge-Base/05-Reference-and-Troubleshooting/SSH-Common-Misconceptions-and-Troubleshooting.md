@@ -11,6 +11,8 @@ status: published
 
 # SSH Common Misconceptions & Troubleshooting
 
+> [!tip] แก้แบบทีละขั้น: [[SSH-Fix-Permission-Denied-Publickey]] · [[SSH-Fix-Host-Key-Changed]]
+
 รวบรวมความเข้าใจผิดเชิงมโนทัศน์ (Mental Model Errors) และคู่มือการวินิจฉัยแก้ไขปัญหาที่พบบ่อยที่สุดในการใช้งาน SSH
 
 ---

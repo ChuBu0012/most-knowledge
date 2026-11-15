@@ -11,6 +11,8 @@ status: in-progress
 
 # Troubleshooting Scenarios: ปัญหาฉุกเฉินและวิธีแก้เฉียบพลัน
 
+> [!tip] สูตรแก้แบบหยิบใช้: [[Git-Recover-Lost-Work]] · [[Git-Fix-Push-Rejected]] · [[Git-Fix-Merge-Conflict]] · [[Git-Stash-and-Switch]] · [[Git-Stop-Tracking-File]]
+
 รวบรวม 5 สถานการณ์วิกฤตที่วิศวกรซอฟต์แวร์มักพบเจอ พร้อมรูปแบบการวินิจฉัยและขั้นตอนแก้ปัญหาแบบเป็นขั้นเป็นตอน
 
 ---

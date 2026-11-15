@@ -12,7 +12,6 @@ tags:
 # 02 - HyperFrames & Rendering
 
 > **ระบบเรนเดอร์วิดีโอจากโค้ดเว็บ**: ทำความรู้จักกับ HyperFrames กลไกการเรนเดอร์ทีละเฟรม (Frame-by-frame seeking) หัวใจของความแม่นยำ (Deterministic Rendering) และการใช้งานคำสั่ง CLI  
-> **Source Reference**: สรุปและเรียบเรียงจาก [[Learn_Code_Generated_Animation_Video]]  
 > **Index**: [[00 - Code-Generated Animation]]
 
 ---
@@ -152,17 +151,17 @@ npx hyperframes preview
 # ตรวจสอบโครงสร้าง Composition, Data Attributes และการตั้งค่า
 npx hyperframes lint
 
-# ตรวจสอบ Runtime Errors, JavaScript Exceptions และ Assets ที่อาจโหลดไม่ติด
-npx hyperframes validate
+# ด่านตรวจหลัก: Runtime Errors, Layout, Contrast (validate เดิมถูกแทนด้วย check)
+npx hyperframes check
 ```
 
 ### 6. เรนเดอร์เป็นไฟล์วิดีโอ (Render to MP4)
 ```bash
 # เรนเดอร์ปกติบนเครื่อง Local
-npx hyperframes render --output the-second-shift.mp4
+npx hyperframes render --quality delivery -o the-second-shift.mp4   # draft | looks | delivery
 
 # เรนเดอร์ผ่าน Docker เพื่อความสม่ำเสมอของสภาพแวดล้อม (Deterministic Guarantee)
-npx hyperframes render --docker --output the-second-shift.mp4
+npx hyperframes render --docker -o the-second-shift.mp4
 ```
 
 ---

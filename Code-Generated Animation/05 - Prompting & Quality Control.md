@@ -12,7 +12,6 @@ tags:
 # 05 - Prompting & Quality Control
 
 > **กลยุทธ์การสั่งงาน AI Agent และการควบคุมคุณภาพ**: โครงสร้าง Master Prompt 12 องค์ประกอบ, เทคนิค Milestone-based Prompting (อย่าสั่งทุกอย่างในรอบเดียว), QA Checklist 4 มิติ และ 9 ข้อผิดพลาดที่ต้องระวัง  
-> **Source Reference**: สรุปและเรียบเรียงจาก [[Learn_Code_Generated_Animation_Video]]  
 > **Index**: [[00 - Code-Generated Animation]]
 
 ---

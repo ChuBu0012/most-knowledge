@@ -50,7 +50,7 @@ flowchart TD
 ---
 
 ## 🎯 คำแนะนำการศึกษา
-- หากต้องการใช้งานจริงแบบรวดเร็วที่สุดโดยไม่ต้องจำทฤษฎี ให้เปิด [[Git-Simple-Guide]]
+- หากต้องการใช้งานจริงแบบรวดเร็วที่สุดโดยไม่ต้องจำทฤษฎี ให้เปิด สูตร How-To ใน [[START-HERE]]
 - หากต้องการทำความเข้าใจ **Mental Model** ให้ศึกษา [[Git-Object-Model]] และ [[Git-Architecture]] เป็นอันดับแรก
 - หากเกิดวิกฤตต้องการแก้ปัญหาด่วน ให้เปิด [[Troubleshooting-Scenarios]] หรือ [[Undo-Command-Comparison]]
 - หากต้องการวางสถาปัตยกรรมการทำงานร่วมกับ AI Agents ให้ศึกษา [[Worktree-with-AI-Agents]] และ [[Parallel-Development-Concept]]\n

@@ -12,7 +12,9 @@ tags:
 # 00 - Code-Generated Animation
 
 > **Hub & Knowledge Map**: คู่มือการสร้างคลิปแอนิเมชันและโมชันกราฟิกด้วยโค้ด โดยใช้ AI Coding Agent เป็นผู้ช่วยกำกับ เขียนฉาก ควบคุมไทม์ไลน์ ตรวจงาน และเรนเดอร์เป็นไฟล์วิดีโอ  
-> **Source Reference**: สรุปและเรียบเรียงจาก [[Learn_Code_Generated_Animation_Video]]
+
+> [!tip] จะลงมือทำเลย
+> [[Anim-Setup-New-Project]] → [[Anim-Make-Video-with-Claude]] → [[Anim-Check-and-Render]] · มีปัญหา: [[Anim-Fix-Common-Problems]]
 
 ---
 

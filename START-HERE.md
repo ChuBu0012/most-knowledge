@@ -1,64 +1,75 @@
 ---
 title: Knowledge Base Start Here
-tags:
-  - knowledge-base
-  - start-here
-  - navigation
+tags: [knowledge-base, start-here, navigation]
 type: hub
 status: published
 ---
 
-# Knowledge Base: เริ่มตรงนี้
+# เริ่มตรงนี้: อยากทำอะไร?
 
-หน้านี้คือจุดเริ่มต้นเดียวของ Knowledge Base ทั้งหมด  
-เลือกตามสิ่งที่กำลังจะทำ ไม่ต้องอ่านทุกไฟล์ตามลำดับโฟลเดอร์
+> หาไม่เจอ → กด `Cmd+O` แล้วพิมพ์สิ่งที่นึกออก (เช่น "public key", "conflict", "render")
+> ทุกหน้า How-To ตั้งชื่อเล่นภาษาไทย/อังกฤษไว้แล้ว
 
-## เลือกเส้นทาง
+## Linux / Shell
 
-```mermaid
-flowchart TD
-    Start["START HERE"] --> Git["Git"]
-    Start --> SSH["SSH"]
-    Git --> GitDaily["ใช้งาน Git วันนี้"]
-    Git --> GitFix["แก้ปัญหา Git"]
-    Git --> GitLearn["เรียน Git เป็นระบบ"]
-    SSH --> SSHDaily["ใช้งาน SSH วันนี้"]
-    SSH --> SSHFix["แก้ปัญหา SSH"]
-    SSH --> SSHLearn["เรียน SSH เชิงลึก"]
-    GitDaily --> GitRef["Git Command Cheatsheet"]
-    GitFix --> GitRef
-    GitLearn --> GitRef
-    SSHDaily --> SSHRef["SSH Command Reference"]
-    SSHFix --> SSHRef
-    SSHLearn --> SSHRef
-```
-
-## Git
-
-| เป้าหมาย | เปิดหน้านี้ |
+| อยากทำ | เปิด |
 |---|---|
-| ทำงานประจำวัน ตั้งแต่เริ่มงานจนส่ง PR | [[Git-Daily-Playbook]] |
-| ค้นคำสั่งอย่างรวดเร็ว | [[Git-Command-Cheatsheet]] |
-| แก้ปัญหาหรือกู้คืนงาน | [[Troubleshooting-Scenarios]] |
-| เรียนจากพื้นฐานไปขั้นสูง | [[Git-Learning-Roadmap]] |
-| เข้าใจกลไกภายใน | [[Git-Architecture]] |
+| ดูข้อมูลเครื่อง (ชื่อ, OS, Kernel, CPU, RAM, Disk) | [[Linux-Check-System-Info]] |
+| เปลี่ยนชื่อเครื่อง | [[Linux-Change-Hostname]] |
+| ตั้ง alias / ตัวแปรให้ถาวร (ใส่ `.bashrc` หรือ `.profile`?) | [[Linux-Add-Alias-and-Env-Var]] |
+| เพิ่มโฟลเดอร์เข้า PATH | [[Linux-Add-to-PATH]] |
+| ใน Terminal ได้ แต่ script / ssh / cron ไม่ได้ | [[Linux-Fix-Command-Not-Found-in-Script]] |
+| เช็กว่าอยู่ใน shell อะไร แบบไหน | [[Linux-Check-Shell-Type]] |
+| ค้นคำสั่ง + option ที่ใช้บ่อย | [[Linux-Command-Cheatsheet]] |
 
 ## SSH
 
-| เป้าหมาย | เปิดหน้านี้ |
+| อยากทำ | เปิด |
 |---|---|
-| เชื่อมต่อ Server, ส่งไฟล์ และใช้งาน Tunnel | [[SSH-Daily-Playbook]] |
-| ค้นคำสั่ง SSH | [[SSH-Command-Reference-and-Cheatsheet]] |
-| แก้ปัญหา Login, Key และ Tunnel | [[SSH-Common-Misconceptions-and-Troubleshooting]] |
-| เรียน SSH ตั้งแต่พื้นฐาน | [[SSH-Knowledge-Base/README|SSH Knowledge Base Home]] |
-| เข้าใจ Handshake และ Authentication | [[SSH-Handshake-and-Authentication-Anatomy]] |
+| ติดตั้ง / เปิด SSH Server บนเครื่องใหม่ | [[SSH-Install-and-Enable-Server]] |
+| สร้าง SSH Key | [[SSH-Create-Key]] |
+| **ใส่ Public Key ให้ Server (เข้าแบบไม่ใช้ Password)** | [[SSH-Add-Public-Key-to-Server]] |
+| ตั้งชื่อเล่น Server (`ssh lab`) | [[SSH-Setup-Config-Alias]] |
+| ปิด Login ด้วย Password | [[SSH-Disable-Password-Login]] |
+| ถอน Key ออก (เครื่องหาย) | [[SSH-Remove-or-Revoke-Key]] |
+| ใช้ Key กับ GitHub | [[SSH-Use-Key-with-GitHub]] |
+| ส่ง / ดึงไฟล์ | [[SSH-Copy-Files]] |
+| ต่อ Database / เว็บบน Server ผ่าน Tunnel | [[SSH-Tunnel-to-Remote-Service]] |
+| แก้ `Permission denied (publickey)` | [[SSH-Fix-Permission-Denied-Publickey]] |
+| แก้ `REMOTE HOST IDENTIFICATION HAS CHANGED` | [[SSH-Fix-Host-Key-Changed]] |
+| ค้นคำสั่ง | [[SSH-Command-Reference-and-Cheatsheet]] |
 
-## วิธีอ่าน
+## Git
 
-1. ใช้ **Daily Playbook** เมื่อกำลังทำงานจริง
-2. ใช้ **Troubleshooting** เมื่อมี Error
-3. เปิด **Deep Dive** เมื่ออยากเข้าใจเหตุผลเบื้องหลัง
-4. ใช้ **Reference** เมื่อต้องการค้นคำสั่ง ไม่ต้องอ่านตั้งแต่ต้น
+| อยากทำ | เปิด |
+|---|---|
+| เริ่มงานใหม่ → Commit → เปิด PR | [[Git-Feature-Branch-to-PR]] |
+| เอาโปรเจกต์ขึ้น GitHub ครั้งแรก | [[Git-Push-New-Project-to-GitHub]] |
+| ย้อน / แก้ Commit ล่าสุด | [[Git-Undo-Last-Commit]] |
+| ทิ้งสิ่งที่แก้ไว้ | [[Git-Discard-Changes]] |
+| พักงานแล้วสลับ Branch | [[Git-Stash-and-Switch]] |
+| แก้ Conflict | [[Git-Fix-Merge-Conflict]] |
+| แก้ Push ถูก Rejected | [[Git-Fix-Push-Rejected]] |
+| กู้งานที่หาย | [[Git-Recover-Lost-Work]] |
+| `.gitignore` ไม่ทำงาน / Secret หลุด | [[Git-Stop-Tracking-File]] |
+| ค้นคำสั่ง | [[Git-Command-Cheatsheet]] |
 
-> [!tip] Graph View
-> ให้เปิด Local Graph ของหน้านี้ แล้วขยายไปยัง Git หรือ SSH จะเห็นเส้นทางหลักโดยไม่ถูกรบกวนด้วยรายละเอียดทุกโน้ตในคลัง
+## Code-Generated Animation
+
+| อยากทำ | เปิด |
+|---|---|
+| เตรียมเครื่อง + สร้างโปรเจกต์ใหม่ | [[Anim-Setup-New-Project]] |
+| สั่ง Claude ทำวิดีโอจนได้ MP4 | [[Anim-Make-Video-with-Claude]] |
+| ตรวจงาน + เรนเดอร์ | [[Anim-Check-and-Render]] |
+| วิดีโอมีปัญหา | [[Anim-Fix-Common-Problems]] |
+
+---
+
+## อยากรู้ว่ามันทำงานยังไง
+
+ทุกหน้า How-To มีหัวข้อ **"ลึกกว่านี้"** ท้ายหน้า ชี้ไปบทอธิบายที่เกี่ยวข้อง หรือเริ่มจากแผนที่ของแต่ละเรื่อง:
+
+- Linux → [[Linux-Knowledge-Base/README|Linux: แผนที่ความรู้]]
+- SSH → [[SSH-Knowledge-Base/README|SSH: แผนที่ความรู้]]
+- Git → [[Git-Knowledge-Base/README|Git: แผนที่ความรู้]] · [[Git-Learning-Roadmap]]
+- Animation → [[00 - Code-Generated Animation]]

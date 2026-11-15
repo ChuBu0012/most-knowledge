@@ -13,7 +13,6 @@ tags:
 # 03 - Animation Skills & Tools
 
 > **คลังเครื่องมือและทักษะสำหรับ AI Coding Agent**: ทำความเข้าใจความแตกต่างของ Skill และ Tool พร้อมสำรวจ Ecosystem สำคัญ เช่น HyperFrames, Lemo-Opuscar, GSAP, ClaudeAnimationBase และแนวทางการเลือกใช้เทคโนโลยี  
-> **Source Reference**: สรุปและเรียบเรียงจาก [[Learn_Code_Generated_Animation_Video]]  
 > **Index**: [[00 - Code-Generated Animation]]
 
 ---

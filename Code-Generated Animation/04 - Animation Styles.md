@@ -12,7 +12,6 @@ tags:
 # 04 - Animation Styles
 
 > **ระบบสไตล์ภาพและการกำกับทิศทางศิลป์**: สำรวจ 15 สไตล์แอนิเมชันสำหรับโค้ด เจาะลึกกฎเกณฑ์ของ True Isometric Infographic และคลังตัวอย่าง Prompt สำหรับใช้งานจริง  
-> **Source Reference**: สรุปและเรียบเรียงจาก [[Learn_Code_Generated_Animation_Video]]  
 > **Index**: [[00 - Code-Generated Animation]]
 
 ---

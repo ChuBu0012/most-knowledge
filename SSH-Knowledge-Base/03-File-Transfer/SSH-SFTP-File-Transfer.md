@@ -142,6 +142,6 @@ EOF
 
 ## Related Notes
 
-- [[SSH-Daily-Playbook]] — Workflow ใช้งานประจำวัน
+- [[SSH-Copy-Files]] — สูตรส่ง/ดึงไฟล์แบบหยิบใช้
 - [[SSH-SCP-File-Transfer]] — คัดลอกไฟล์แบบคำสั่งเดียว
 - [[SSH-Client-Configuration-and-Aliases]] — ตั้ง Alias และ Key
