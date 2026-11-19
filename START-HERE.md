@@ -7,6 +7,8 @@ status: published
 
 # เริ่มตรงนี้: อยากทำอะไร?
 
+> กำลังเลือก technology หรือเรียนรู้ภาพรวม → [[Technical-Knowledge/00-Home/Home|Technical Knowledge Home]] · [[Technical-Knowledge/00-Home/Technology-Index|Technology Index]]
+
 > หาไม่เจอ → กด `Cmd+O` แล้วพิมพ์สิ่งที่นึกออก (เช่น "public key", "conflict", "render")
 > ทุกหน้า How-To ตั้งชื่อเล่นภาษาไทย/อังกฤษไว้แล้ว
 
@@ -55,6 +57,9 @@ status: published
 | ค้นคำสั่ง | [[Git-Command-Cheatsheet]] |
 
 ## Code-Generated Animation
+
+ภาพรวมทั้งชุด: [[Code-Generated Animation/README|Code-Generated Animation Home]]
+
 
 | อยากทำ | เปิด |
 |---|---|
