@@ -57,3 +57,12 @@ Reka UI 2.11.0 (5 Oct) added Field/Form primitives, TagGroup, and keyboard navig
 หัวข้อเหล่านี้อธิบายแนวคิดและการตัดสินใจที่เกี่ยวข้อง โดยเนื้อหาสำคัญอยู่ใน Vault ไม่ต้องเปิดเว็บเพื่ออ่านพื้นฐาน:
 
 [[Vue Reactivity and Computed State]] · [[Utility-First CSS and Design Tokens]]
+
+
+## คำสั่งและสูตรใช้งาน
+
+[[Technical-Knowledge/12-Command-Reference/Reka-UI/Reka-UI-Recipes|Reka UI Recipes]] — ตัวอย่าง API/คำสั่งที่ใช้บ่อย
+
+## Reference Catalog
+
+[[Technical-Knowledge/13-References/Reference-Catalog|Browse all references by topic]]

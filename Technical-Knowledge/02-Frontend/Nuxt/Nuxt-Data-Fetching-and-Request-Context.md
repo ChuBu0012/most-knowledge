@@ -45,3 +45,7 @@ Snippet is a focused pattern; include package imports, types, error handling, va
 ## References
 
 - [nuxt.com](https://nuxt.com/docs/4.x/getting-started/data-fetching)
+
+## Reference Catalog
+
+[[Technical-Knowledge/13-References/Reference-Catalog|Browse all references by topic]]

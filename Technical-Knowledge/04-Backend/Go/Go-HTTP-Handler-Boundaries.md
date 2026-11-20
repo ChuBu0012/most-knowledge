@@ -52,3 +52,7 @@ func createUser(w http.ResponseWriter, r *http.Request) {
 ## References
 
 - [pkg.go.dev](https://pkg.go.dev/net/http)
+
+## Reference Catalog
+
+[[Technical-Knowledge/13-References/Reference-Catalog|Browse all references by topic]]

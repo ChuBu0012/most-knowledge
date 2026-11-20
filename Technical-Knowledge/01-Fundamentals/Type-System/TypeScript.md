@@ -57,3 +57,12 @@ TypeScript’s stable learning model remains gradual static checking over JavaSc
 หัวข้อเหล่านี้อธิบายแนวคิดและการตัดสินใจที่เกี่ยวข้อง โดยเนื้อหาสำคัญอยู่ใน Vault ไม่ต้องเปิดเว็บเพื่ออ่านพื้นฐาน:
 
 [[TypeScript Type Narrowing]] · [[TypeScript Generics]] · [[TypeScript Structural Types]]
+
+
+## คำสั่งและสูตรใช้งาน
+
+[[TypeScript Recipes]] — ค้น API/คำสั่งจากงานที่ต้องทำ พร้อมตัวอย่างและข้อควรระวัง
+
+## Reference Catalog
+
+[[Technical-Knowledge/13-References/Reference-Catalog|Browse all references by topic]]

@@ -57,3 +57,12 @@ JWT deployments should follow RFC 8725 Best Current Practices: pin allowed algor
 หัวข้อเหล่านี้อธิบายแนวคิดและการตัดสินใจที่เกี่ยวข้อง โดยเนื้อหาสำคัญอยู่ใน Vault ไม่ต้องเปิดเว็บเพื่ออ่านพื้นฐาน:
 
 [[JWT Validation]] · [[Cookie and Session Security]] · [[OAuth Authorization Code with PKCE]]
+
+
+## คำสั่งและสูตรใช้งาน
+
+[[JWT Recipes]] — task-first walkthrough สำหรับการใช้งานจริง
+
+## Reference Catalog
+
+[[Technical-Knowledge/13-References/Reference-Catalog|Browse all references by topic]]

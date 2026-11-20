@@ -58,3 +58,12 @@ Vitest 5.1 เป็น release train ปัจจุบัน; Vite >=6.4 แ�
 ## แนวคิดและคู่มือภายใน Vault
 
 [[Unit Integration and End-to-End Tests]] · [[Vite Development and Production Builds]] · [[Technical-Knowledge/00-Home/Recent-Updates|สรุปอัปเดตทั้งหมด]]
+
+
+## คำสั่งและสูตรใช้งาน
+
+[[Vitest Recipes]] — task-first walkthrough สำหรับการใช้งานจริง
+
+## Reference Catalog
+
+[[Technical-Knowledge/13-References/Reference-Catalog|Browse all references by topic]]

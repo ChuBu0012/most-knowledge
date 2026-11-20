@@ -57,3 +57,12 @@ TanStack Query v5.108.1 packages were published 19 Nov; the release fixed infini
 หัวข้อเหล่านี้อธิบายแนวคิดและการตัดสินใจที่เกี่ยวข้อง โดยเนื้อหาสำคัญอยู่ใน Vault ไม่ต้องเปิดเว็บเพื่ออ่านพื้นฐาน:
 
 [[TanStack Query Cache Lifecycle]] · [[JavaScript Promises]] · [[Database-Transactions]]
+
+
+## คำสั่งและสูตรใช้งาน
+
+[[TanStack Query Recipes]] — ตัวอย่าง API ที่ใช้ทำงานประจำวันและข้อควรระวัง
+
+## Reference Catalog
+
+[[Technical-Knowledge/13-References/Reference-Catalog|Browse all references by topic]]

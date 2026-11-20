@@ -52,3 +52,7 @@ Snippet is a focused pattern; include package imports, types, error handling, va
 ## References
 
 - [svelte.dev](https://svelte.dev/docs/kit/load)
+
+## Reference Catalog
+
+[[Technical-Knowledge/13-References/Reference-Catalog|Browse all references by topic]]

@@ -57,3 +57,12 @@ VeeValidate 4.9.6 is represented in the official changelog; recent 4.x fixes imp
 หัวข้อเหล่านี้อธิบายแนวคิดและการตัดสินใจที่เกี่ยวข้อง โดยเนื้อหาสำคัญอยู่ใน Vault ไม่ต้องเปิดเว็บเพื่ออ่านพื้นฐาน:
 
 [[Browser Form State]] · [[Zod Runtime Validation]] · [[Vue Reactivity and Computed State]]
+
+
+## คำสั่งและสูตรใช้งาน
+
+[[VeeValidate Recipes]] — task-first API examples สำหรับ integration และงานประจำ
+
+## Reference Catalog
+
+[[Technical-Knowledge/13-References/Reference-Catalog|Browse all references by topic]]

@@ -59,3 +59,12 @@ Vite 8.3 release train; Vite 8 รวม bundling ผ่าน Rolldown แล�
 ## แนวคิดและคู่มือภายใน Vault
 
 [[Vite Development and Production Builds]] · [[JavaScript Modules]] · [[Vitest]] · [[Technical-Knowledge/00-Home/Recent-Updates|สรุปอัปเดตทั้งหมด]]
+
+
+## คำสั่งและสูตรใช้งาน
+
+[[Vite Recipes]] — task-first API และคำสั่งที่ใช้บ่อย
+
+## Reference Catalog
+
+[[Technical-Knowledge/13-References/Reference-Catalog|Browse all references by topic]]

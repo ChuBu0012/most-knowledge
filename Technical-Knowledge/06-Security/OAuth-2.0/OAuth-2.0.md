@@ -57,3 +57,12 @@ RFC 9700 remains the current OAuth 2.0 Security Best Current Practice. Prefer Au
 หัวข้อเหล่านี้อธิบายแนวคิดและการตัดสินใจที่เกี่ยวข้อง โดยเนื้อหาสำคัญอยู่ใน Vault ไม่ต้องเปิดเว็บเพื่ออ่านพื้นฐาน:
 
 [[OAuth Authorization Code with PKCE]] · [[JWT Validation]] · [[HTTP Request Lifecycle]]
+
+
+## คำสั่งและสูตรใช้งาน
+
+[[OAuth 2.0 Recipes]] — task-first walkthrough สำหรับการใช้งานจริง
+
+## Reference Catalog
+
+[[Technical-Knowledge/13-References/Reference-Catalog|Browse all references by topic]]

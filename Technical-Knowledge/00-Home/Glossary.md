@@ -4,6 +4,10 @@ type: reference
 tags: [technical-knowledge, glossary]
 status: published
 last_verified: 2026-11-20
+sources:
+  - https://developer.mozilla.org/en-US/docs/Glossary
+  - https://www.rfc-editor.org/rfc/rfc6749
+  - https://www.rfc-editor.org/rfc/rfc7519
 ---
 
 # Glossary
@@ -24,3 +28,13 @@ last_verified: 2026-11-20
 | OAuth 2.0 | กรอบมอบ authorization ให้ client เข้าถึง resource |
 | Virtualization | render เฉพาะรายการที่มองเห็นเพื่อลด DOM |
 | E2E test | ทดสอบ journey ผ่านระบบที่ประกอบใกล้เคียงการใช้งานจริง |
+
+## แหล่งอ้างอิง
+
+- [MDN Glossary](https://developer.mozilla.org/en-US/docs/Glossary)
+- [OAuth 2.0 RFC 6749](https://www.rfc-editor.org/rfc/rfc6749)
+- [JSON Web Token RFC 7519](https://www.rfc-editor.org/rfc/rfc7519)
+
+## Reference Catalog
+
+[[Technical-Knowledge/13-References/Reference-Catalog|Browse all references by topic]]

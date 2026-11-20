@@ -46,3 +46,7 @@ type-based declaration ไม่สามารถสะท้อน type-level 
 ## References
 
 - [vuejs.org](https://vuejs.org/guide/typescript/composition-api.html)
+
+## Reference Catalog
+
+[[Technical-Knowledge/13-References/Reference-Catalog|Browse all references by topic]]

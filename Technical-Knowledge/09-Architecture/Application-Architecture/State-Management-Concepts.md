@@ -33,3 +33,7 @@ sources: [https://react.dev/learn/sharing-state-between-components]
 
 - [เอกสาร/มาตรฐานทางการ](https://react.dev/learn/sharing-state-between-components)
 - ตรวจลิงก์เมื่อ 2026-11-20
+
+## Reference Catalog
+
+[[Technical-Knowledge/13-References/Reference-Catalog|Browse all references by topic]]

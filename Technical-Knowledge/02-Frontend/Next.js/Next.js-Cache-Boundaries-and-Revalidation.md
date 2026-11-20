@@ -46,3 +46,7 @@ cache key ขาด tenant/user dimension เป็นข้อมูลรั�
 ## References
 
 - [nextjs.org](https://nextjs.org/docs/app/guides/caching)
+
+## Reference Catalog
+
+[[Technical-Knowledge/13-References/Reference-Catalog|Browse all references by topic]]

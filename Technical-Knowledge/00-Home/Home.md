@@ -6,9 +6,9 @@ status: published
 last_verified: 2026-11-20
 ---
 
-# Technical Knowledge
+# Technical Reference Library
 
-คลังความรู้ด้าน software development ที่จัดตามงานและโดเมน เนื้อหาเก็บเป็น Markdown เพื่ออ่าน offline ได้; external links ใช้ตรวจเวอร์ชันและรายละเอียดล่าสุด
+คลังนี้จัด **แหล่งอ้างอิงของทุกหัวข้อ** ใน software development เป็นหลัก: เอกสารทางการ, API/command reference, standards, tutorials, migration guides และ release notes พร้อม link จาก knowledge unit ไปยังแหล่งที่เกี่ยวข้อง. หน้าสรุป/ตัวอย่างใน vault เป็นทางเข้าช่วยเลือกอ่าน; รายละเอียด version-specific ให้ยืนยันจาก reference ต้นทาง.
 
 ## ยังไม่แน่ใจว่าจะเริ่มตรงไหน?
 
@@ -25,9 +25,11 @@ last_verified: 2026-11-20
 - [[Technical-Knowledge/10-Comparisons/Technology-Selection-Guide|Technology Selection Guide]] — เทียบตัวเลือกตามโจทย์
 - [[Knowledge-Map|Knowledge Map]] — ความสัมพันธ์และลำดับพื้นฐาน
 - [[Concept-Index|Concept Index]] — เปิดอ่านกลไกย่อยแบบ offline
+- [[Technical-Knowledge/13-References/Reference-Catalog|Reference Catalog]] — แหล่งอ้างอิงครบทุก knowledge unit จัดกลุ่มตามชนิดเอกสาร
+- [[Command-Finder|Command & API Finder]] — ตัวอย่างคำสั่งใน vault ใช้เป็น index เสริมของแหล่งอ้างอิง
 - [[Version-Matrix|Version & Update Tracker]] — วิธีตรวจข้อมูลล่าสุดและสถานะที่ตรวจแล้ว
 - [[Glossary|Glossary]] — คำศัพท์ร่วม
 
 ## วิธีดูแลความรู้
 
-เริ่มจาก overview → เพิ่ม atomic concept เมื่อมีคำถามหรือใช้งานจริง → เชื่อมด้วย wikilinks → อ้างอิง official docs และระบุ `last_verified` ทุกครั้งที่ทบทวน
+เริ่มจากหัวข้อที่ต้องการ → เปิด Reference Catalog หรือแหล่งอ้างอิงในหน้านั้น → ตรวจชนิดเอกสารและเวอร์ชัน → ใช้ official API/spec/release notes เป็นหลักเมื่อเลือกวิธีใช้งาน

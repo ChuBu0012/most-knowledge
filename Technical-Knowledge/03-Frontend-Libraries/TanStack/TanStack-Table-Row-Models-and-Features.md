@@ -49,3 +49,7 @@ Snippet is a focused pattern; include package imports, types, error handling, va
 ## References
 
 - [tanstack.com](https://tanstack.com/table/latest/docs/guide/row-models)
+
+## Reference Catalog
+
+[[Technical-Knowledge/13-References/Reference-Catalog|Browse all references by topic]]

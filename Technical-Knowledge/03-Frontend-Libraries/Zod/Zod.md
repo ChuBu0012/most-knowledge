@@ -58,3 +58,12 @@ Zod 4.6 เพิ่ม `.validate()`, `z.withParser()` และ JSON Schema be
 ## แนวคิดและคู่มือภายใน Vault
 
 [[Zod Runtime Validation]] · [[TypeScript Type Narrowing]] · [[Technical-Knowledge/00-Home/Recent-Updates|สรุปอัปเดตทั้งหมด]]
+
+
+## คำสั่งและสูตรใช้งาน
+
+[[Zod Recipes]] — ตัวอย่าง API ที่ใช้ทำงานประจำวันและข้อควรระวัง
+
+## Reference Catalog
+
+[[Technical-Knowledge/13-References/Reference-Catalog|Browse all references by topic]]

@@ -58,3 +58,12 @@ v8.5.2 (18 Nov 2026) แก้ metadata/navigation หลัง action error แ
 ## แนวคิดและคู่มือภายใน Vault
 
 [[HTTP Request Lifecycle]] · [[HTTP Semantics and REST]] · [[React Server and Client Components]] · [[Technical-Knowledge/00-Home/Recent-Updates|สรุปอัปเดตทั้งหมด]]
+
+
+## คำสั่งและสูตรใช้งาน
+
+[[React Router Recipes]] — task-first API และคำสั่งที่ใช้บ่อย
+
+## Reference Catalog
+
+[[Technical-Knowledge/13-References/Reference-Catalog|Browse all references by topic]]

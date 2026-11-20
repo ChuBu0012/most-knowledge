@@ -57,3 +57,12 @@ sqlc v1.31.1 is the current release line observed. The core workflow remains SQL
 หัวข้อเหล่านี้อธิบายแนวคิดและการตัดสินใจที่เกี่ยวข้อง โดยเนื้อหาสำคัญอยู่ใน Vault ไม่ต้องเปิดเว็บเพื่ออ่านพื้นฐาน:
 
 [[Database-Transactions]] · [[SQL Indexes and Query Plans]] · [[Database Connection Pooling]]
+
+
+## คำสั่งและสูตรใช้งาน
+
+[[Technical-Knowledge/12-Command-Reference/sqlc/sqlc-Recipes|sqlc Recipes]] — ตัวอย่าง API/คำสั่งที่ใช้บ่อย
+
+## Reference Catalog
+
+[[Technical-Knowledge/13-References/Reference-Catalog|Browse all references by topic]]

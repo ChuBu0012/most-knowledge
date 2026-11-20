@@ -59,3 +59,12 @@ FastAPI 0.163.1 (15 Nov 2026); 0.163 เพิ่ม dependency concurrency limi
 ## แนวคิดและคู่มือภายใน Vault
 
 [[HTTP Request Lifecycle]] · [[HTTP Semantics and REST]] · [[OpenAPI]] · [[Technical-Knowledge/00-Home/Recent-Updates|สรุปอัปเดตทั้งหมด]]
+
+
+## คำสั่งและสูตรใช้งาน
+
+[[FastAPI Recipes]] — เริ่มต้น, routes/handlers, validation, errors และการรัน
+
+## Reference Catalog
+
+[[Technical-Knowledge/13-References/Reference-Catalog|Browse all references by topic]]

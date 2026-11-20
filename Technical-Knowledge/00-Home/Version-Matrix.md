@@ -4,6 +4,9 @@ type: reference
 tags: [technical-knowledge, versions, maintenance]
 status: published
 last_verified: 2026-11-20
+sources:
+  - Technical-Knowledge/00-Home/Recent-Updates.md
+  - Technical-Knowledge/13-References/Reference-Catalog.md
 ---
 
 # Version & Update Tracker
@@ -48,3 +51,48 @@ last_verified: 2026-11-20
 2. สรุปการเปลี่ยนแปลงที่กระทบความรู้ใน `Recent-Updates.md` และปรับ concept note แบบ local ไม่ฝากสาระสำคัญไว้ในลิงก์เว็บอย่างเดียว
 3. แก้ตัวอย่าง/API ให้ระบุ major/minor และ runtime; เพิ่ม `last_verified` หลังตรวจจริง
 4. ระบุความไม่แน่ใจหรือ prerelease ให้ชัด ห้ามทำให้ลิงก์ที่ยังไม่ได้อ่านดูเหมือนเนื้อหายืนยันแล้ว
+
+แหล่งอ้างอิงรายเทคโนโลยีและ release notes อยู่ใน [[Reference-Catalog]] และ [[Recent-Updates]]; ใช้หน้าทางการของแต่ละรายการเป็นหลักฐานสำหรับ snapshot ไม่ใช้ตารางนี้แทน changelog.
+
+
+
+## แหล่งอ้างอิงของ snapshots
+
+- [https://github.com/pmndrs/zustand/releases](https://github.com/pmndrs/zustand/releases)
+- [https://github.com/vuejs/pinia/releases](https://github.com/vuejs/pinia/releases)
+- [https://github.com/colinhacks/zod/releases](https://github.com/colinhacks/zod/releases)
+- [https://github.com/honojs/hono/releases](https://github.com/honojs/hono/releases)
+- [https://github.com/expressjs/express/releases](https://github.com/expressjs/express/releases)
+- [https://github.com/gofiber/fiber/releases](https://github.com/gofiber/fiber/releases)
+- [https://github.com/gin-gonic/gin/releases](https://github.com/gin-gonic/gin/releases)
+- [https://fastapi.tiangolo.com/release-notes/](https://fastapi.tiangolo.com/release-notes/)
+- [https://github.com/redis/redis/releases](https://github.com/redis/redis/releases)
+- [https://github.com/docker/compose/releases](https://github.com/docker/compose/releases)
+- [https://www.rabbitmq.com/release-information](https://www.rabbitmq.com/release-information)
+- [https://nuxt.com/docs/4.x/community/roadmap/](https://nuxt.com/docs/4.x/community/roadmap/)
+- [https://react.dev/blog/2026/09/09/react-19-3](https://react.dev/blog/2026/09/09/react-19-3)
+- [https://nextjs.org/blog/next-16-4](https://nextjs.org/blog/next-16-4)
+- [https://reactrouter.com/changelog](https://reactrouter.com/changelog)
+- [https://nuxt.com/deploy](https://nuxt.com/deploy)
+- [https://svelte.dev/blog/sveltekit-3-is-here](https://svelte.dev/blog/sveltekit-3-is-here)
+- [https://vite.dev/blog/announcing-vite8](https://vite.dev/blog/announcing-vite8)
+- [https://vite.dev/releases](https://vite.dev/releases)
+- [https://go.dev/doc/go1.27](https://go.dev/doc/go1.27)
+- [https://go.dev/doc/devel/release](https://go.dev/doc/devel/release)
+- [https://go.dev/dl/](https://go.dev/dl/)
+- [https://bun.sh/blog/bun-v1.4](https://bun.sh/blog/bun-v1.4)
+- [https://bun.sh/blog/bun-v1.4.4](https://bun.sh/blog/bun-v1.4.4)
+- [https://tanstack.com/blog/announcing-tanstack-table-v9](https://tanstack.com/blog/announcing-tanstack-table-v9)
+- [https://tanstack.com/blog/announcing-tanstack-form-v2-alpha](https://tanstack.com/blog/announcing-tanstack-form-v2-alpha)
+- [https://www.prisma.io/docs/orm/release-status](https://www.prisma.io/docs/orm/release-status)
+- [https://www.prisma.io/docs/orm/supported-databases](https://www.prisma.io/docs/orm/supported-databases)
+- [https://www.prisma.io/changelog](https://www.prisma.io/changelog)
+- [https://tailwindcss.com/blog/tailwindcss-v4-3](https://tailwindcss.com/blog/tailwindcss-v4-3)
+- [https://vitest.dev/releases.html](https://vitest.dev/releases.html)
+- [https://vitest.dev/guide/migration/](https://vitest.dev/guide/migration/)
+- [https://playwright.dev/docs/release-notes](https://playwright.dev/docs/release-notes)
+- [https://www.rfc-editor.org/rfc/rfc9700](https://www.rfc-editor.org/rfc/rfc9700)
+
+## Reference Catalog
+
+[[Technical-Knowledge/13-References/Reference-Catalog|Browse all references by topic]]

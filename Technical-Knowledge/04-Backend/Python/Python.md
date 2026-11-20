@@ -33,3 +33,12 @@ syntax, virtual environments, packages, type hints และ async programming. 
 
 - [เอกสาร/มาตรฐานทางการ](https://docs.python.org/3/tutorial/)
 - ตรวจลิงก์เมื่อ 2026-11-20
+
+
+## คำสั่งและสูตรใช้งาน
+
+[[Python Recipes]] — virtual env, types, dataclass, files, FastAPI, async
+
+## Reference Catalog
+
+[[Technical-Knowledge/13-References/Reference-Catalog|Browse all references by topic]]

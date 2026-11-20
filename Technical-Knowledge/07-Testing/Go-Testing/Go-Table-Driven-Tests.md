@@ -54,3 +54,7 @@ assertion helper ที่ซ่อน context ทำให้ failure อ่า
 
 - [เอกสาร/มาตรฐานต้นทาง](https://go.dev/doc/tutorial/add-a-test)
 - เนื้อหาสรุปและตัวอย่างด้านบนเก็บใน Vault เพื่ออ่าน offline; ตรวจ version-specific details ก่อนใช้กับระบบจริง
+
+## Reference Catalog
+
+[[Technical-Knowledge/13-References/Reference-Catalog|Browse all references by topic]]

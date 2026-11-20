@@ -58,3 +58,12 @@ Go 1.27 `testing` เพิ่ม ArtifactDir สำหรับ output จา�
 ## แนวคิดและคู่มือภายใน Vault
 
 [[Go Table-Driven Tests]] · [[Unit Integration and End-to-End Tests]] · [[Technical-Knowledge/00-Home/Recent-Updates|สรุปอัปเดตทั้งหมด]]
+
+
+## คำสั่งและสูตรใช้งาน
+
+[[Go Testing Recipes]] — task-first walkthrough สำหรับการใช้งานจริง
+
+## Reference Catalog
+
+[[Technical-Knowledge/13-References/Reference-Catalog|Browse all references by topic]]

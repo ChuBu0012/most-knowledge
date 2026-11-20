@@ -57,3 +57,12 @@ TanStack Router is on the v1 release line; 2026 documentation highlights its rea
 หัวข้อเหล่านี้อธิบายแนวคิดและการตัดสินใจที่เกี่ยวข้อง โดยเนื้อหาสำคัญอยู่ใน Vault ไม่ต้องเปิดเว็บเพื่ออ่านพื้นฐาน:
 
 [[TanStack Router Loaders and URL State]] · [[HTTP Semantics and REST]]
+
+
+## คำสั่งและสูตรใช้งาน
+
+[[TanStack Router Recipes]] — task-first API examples สำหรับ integration และงานประจำ
+
+## Reference Catalog
+
+[[Technical-Knowledge/13-References/Reference-Catalog|Browse all references by topic]]

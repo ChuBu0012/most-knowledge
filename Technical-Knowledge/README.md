@@ -10,8 +10,9 @@ last_verified: 2026-11-20
 
 > เริ่มเลือกเทคโนโลยีและอ่านภาพรวมที่ [[00-Home/Home|Home]] · ต้องการทำงานทันที เปิด [[START-HERE]]
 
-คลังนี้รวบรวม overview และองค์ความรู้ด้าน programming, web, backend, database, security, testing และ infrastructure แบ่งเป็นหน่วยที่ค้นหาและอ่านแยกได้ พร้อม wikilinks สำหรับเชื่อมโยงหัวข้อ
+คลังนี้เน้นรวบรวมและจัดระเบียบแหล่งอ้างอิงด้าน programming, web, backend, database, security, testing และ infrastructure ให้ทุก knowledge unit มีแหล่งทางการที่ตามต่อได้
 
+- [[13-References/Reference-Catalog|Reference Catalog]] — แหล่งอ้างอิงทั้งหมด จัดตามหัวข้อและประเภท
 - [[00-Home/Technology-Index|Technology Index]] — ทุก technology ตามหมวด
 - [[00-Home/Knowledge-Map|Knowledge Map]] — เส้นทางเรียนและแนวคิดที่เชื่อมกัน
 - [[00-Home/Version-Matrix|Version & Update Tracker]] — แหล่งข้อมูลล่าสุดและวันตรวจ

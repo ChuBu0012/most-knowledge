@@ -57,3 +57,12 @@ daisyUI 5.7.47 was the latest package version observed on 20 Nov 2026. It remain
 หัวข้อเหล่านี้อธิบายแนวคิดและการตัดสินใจที่เกี่ยวข้อง โดยเนื้อหาสำคัญอยู่ใน Vault ไม่ต้องเปิดเว็บเพื่ออ่านพื้นฐาน:
 
 [[Utility-First CSS and Design Tokens]] · [[Tailwind CSS]]
+
+
+## คำสั่งและสูตรใช้งาน
+
+[[Technical-Knowledge/12-Command-Reference/DaisyUI/DaisyUI-Recipes|DaisyUI Recipes]] — ตัวอย่าง API/คำสั่งที่ใช้บ่อย
+
+## Reference Catalog
+
+[[Technical-Knowledge/13-References/Reference-Catalog|Browse all references by topic]]

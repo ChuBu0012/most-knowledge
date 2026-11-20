@@ -58,3 +58,12 @@ Bun 1.4.4 เป็น patch ล่าสุดที่ตรวจ; 1.4 มี
 ## แนวคิดและคู่มือภายใน Vault
 
 [[JavaScript Execution Model]] · [[JavaScript Modules]] · [[HTTP Request Lifecycle]] · [[Technical-Knowledge/00-Home/Recent-Updates|สรุปอัปเดตทั้งหมด]]
+
+
+## คำสั่งและสูตรใช้งาน
+
+[[Bun Recipes]] — เริ่มต้น, routes/handlers, validation, errors และการรัน
+
+## Reference Catalog
+
+[[Technical-Knowledge/13-References/Reference-Catalog|Browse all references by topic]]

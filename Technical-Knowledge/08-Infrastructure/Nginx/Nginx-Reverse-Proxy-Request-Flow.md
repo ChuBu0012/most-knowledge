@@ -50,3 +50,7 @@ slash ท้าย `location`/`proxy_pass` เปลี่ยน URI rewrite sem
 
 - [เอกสาร/มาตรฐานต้นทาง](https://nginx.org/en/docs/http/ngx_http_proxy_module.html)
 - เนื้อหาสรุปและตัวอย่างด้านบนเก็บใน Vault เพื่ออ่าน offline; ตรวจ version-specific details ก่อนใช้กับระบบจริง
+
+## Reference Catalog
+
+[[Technical-Knowledge/13-References/Reference-Catalog|Browse all references by topic]]

@@ -47,3 +47,7 @@ persist token/secret ใน localStorage เพิ่ม XSS impact; selector �
 ## References
 
 - [zustand.docs.pmnd.rs](https://zustand.docs.pmnd.rs/integrations/persisting-store-data)
+
+## Reference Catalog
+
+[[Technical-Knowledge/13-References/Reference-Catalog|Browse all references by topic]]

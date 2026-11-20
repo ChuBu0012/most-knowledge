@@ -58,3 +58,12 @@ Hono 4.13.19 (16 Nov 2026); 4.13.18 แก้ security issues ใน request val
 ## แนวคิดและคู่มือภายใน Vault
 
 [[HTTP Request Lifecycle]] · [[HTTP Semantics and REST]] · [[JavaScript Error Handling]] · [[Technical-Knowledge/00-Home/Recent-Updates|สรุปอัปเดตทั้งหมด]]
+
+
+## คำสั่งและสูตรใช้งาน
+
+[[Hono Recipes]] — เริ่มต้น, routes/handlers, validation, errors และการรัน
+
+## Reference Catalog
+
+[[Technical-Knowledge/13-References/Reference-Catalog|Browse all references by topic]]

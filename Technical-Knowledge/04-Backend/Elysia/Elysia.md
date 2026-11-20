@@ -57,3 +57,12 @@ Elysia 2 is in release-candidate status (Oct 2026); its maintainers recommend st
 หัวข้อเหล่านี้อธิบายแนวคิดและการตัดสินใจที่เกี่ยวข้อง โดยเนื้อหาสำคัญอยู่ใน Vault ไม่ต้องเปิดเว็บเพื่ออ่านพื้นฐาน:
 
 [[HTTP Request Lifecycle]] · [[HTTP Semantics and REST]] · [[TypeScript Type Narrowing]]
+
+
+## คำสั่งและสูตรใช้งาน
+
+[[Elysia Recipes]] — เริ่มต้น, routes/handlers, validation, errors และการรัน
+
+## Reference Catalog
+
+[[Technical-Knowledge/13-References/Reference-Catalog|Browse all references by topic]]

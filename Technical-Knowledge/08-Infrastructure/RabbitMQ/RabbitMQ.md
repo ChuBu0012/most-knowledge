@@ -59,3 +59,12 @@ RabbitMQ 4.4.1 (16 Nov 2026) เพิ่ม quorum queue delayed/deferred messa
 ## แนวคิดและคู่มือภายใน Vault
 
 [[RabbitMQ Acknowledgements and Redelivery]] · [[Database-Transactions]] · [[Technical-Knowledge/00-Home/Recent-Updates|สรุปอัปเดตทั้งหมด]]
+
+
+## คำสั่งและสูตรใช้งาน
+
+[[RabbitMQ Recipes]] — task-first API และคำสั่งที่ใช้บ่อย
+
+## Reference Catalog
+
+[[Technical-Knowledge/13-References/Reference-Catalog|Browse all references by topic]]

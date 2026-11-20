@@ -59,3 +59,12 @@ Go 1.27.4 (10 Nov 2026) เป็น patch ล่าสุดที่ตรว�
 ## แนวคิดและคู่มือภายใน Vault
 
 [[Go Error Handling]] · [[Go Goroutines]] · [[Go Channels]] · [[Go Context]] · [[Technical-Knowledge/00-Home/Recent-Updates|สรุปอัปเดตทั้งหมด]]
+
+
+## คำสั่งและสูตรใช้งาน
+
+[[Go Recipes]] — ค้น API/คำสั่งจากงานที่ต้องทำ พร้อมตัวอย่างและข้อควรระวัง
+
+## Reference Catalog
+
+[[Technical-Knowledge/13-References/Reference-Catalog|Browse all references by topic]]

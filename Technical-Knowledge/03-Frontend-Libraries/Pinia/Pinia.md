@@ -58,3 +58,12 @@ v4.1.0 (14 Oct 2026) เพิ่ม `getStores()` และ diagnostics สำ�
 ## แนวคิดและคู่มือภายใน Vault
 
 [[Vue Reactivity and Computed State]] · [[Vue Composables]] · [[State Management Concepts]] · [[Technical-Knowledge/00-Home/Recent-Updates|สรุปอัปเดตทั้งหมด]]
+
+
+## คำสั่งและสูตรใช้งาน
+
+[[Pinia Recipes]] — ตัวอย่าง API ที่ใช้ทำงานประจำวันและข้อควรระวัง
+
+## Reference Catalog
+
+[[Technical-Knowledge/13-References/Reference-Catalog|Browse all references by topic]]

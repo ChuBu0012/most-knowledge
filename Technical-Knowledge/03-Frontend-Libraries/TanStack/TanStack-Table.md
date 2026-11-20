@@ -58,3 +58,12 @@ Table v9 stable ตั้งแต่ Aug 2026; architecture ใช้ tree-shak
 ## แนวคิดและคู่มือภายใน Vault
 
 [[List Virtualization and Windowing]] · [[TanStack Query Cache Lifecycle]] · [[Technical-Knowledge/00-Home/Recent-Updates|สรุปอัปเดตทั้งหมด]]
+
+
+## คำสั่งและสูตรใช้งาน
+
+[[TanStack Table Recipes]] — task-first API examples สำหรับ integration และงานประจำ
+
+## Reference Catalog
+
+[[Technical-Knowledge/13-References/Reference-Catalog|Browse all references by topic]]

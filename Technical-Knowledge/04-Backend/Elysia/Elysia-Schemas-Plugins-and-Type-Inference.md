@@ -49,3 +49,7 @@ const app = new Elysia()
 
 - [elysiajs.com](https://elysiajs.com/essential/validation)
 - [next.elysiajs.com](https://next.elysiajs.com/blog/elysia-20-rc/)
+
+## Reference Catalog
+
+[[Technical-Knowledge/13-References/Reference-Catalog|Browse all references by topic]]

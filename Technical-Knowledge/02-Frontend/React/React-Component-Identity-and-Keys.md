@@ -46,3 +46,7 @@ React จับคู่ child ภายในตำแหน่ง parent โ�
 
 - [เอกสาร/มาตรฐานต้นทาง](https://react.dev/learn/preserving-and-resetting-state)
 - เนื้อหาสรุปและตัวอย่างด้านบนเก็บใน Vault เพื่ออ่าน offline; ตรวจ version-specific details ก่อนใช้กับระบบจริง
+
+## Reference Catalog
+
+[[Technical-Knowledge/13-References/Reference-Catalog|Browse all references by topic]]

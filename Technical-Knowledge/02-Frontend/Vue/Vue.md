@@ -55,6 +55,14 @@ Progressive UI framework ใช้ reactive state, template และ component 
 
 Vue 3 เป็น major ปัจจุบัน. Release cycle ไม่มี fixed schedule; stable minor อาจปรับ TypeScript definitions ให้ต้องใช้ TS ใหม่ขึ้น. ใช้ [release policy](https://vuejs.org/about/releases.html) แยก stable/pre-release และ pin minor ใน library peer dependencies เมื่อจำเป็น.
 
+## คำสั่งและสูตรใช้งาน
+
+[[Vue API Recipes]] — ค้น `ref`, `computed`, `watch`, props/emits, `v-model`, lifecycle และ composables พร้อมตัวอย่างใช้จริง
+
 ## แนวคิดและคู่มือภายใน Vault
 
 [[Vue Reactivity and Computed State]] · [[Vue Composables]] · [[Technical-Knowledge/00-Home/Recent-Updates|สรุปอัปเดตทั้งหมด]]
+
+## Reference Catalog
+
+[[Technical-Knowledge/13-References/Reference-Catalog|Browse all references by topic]]

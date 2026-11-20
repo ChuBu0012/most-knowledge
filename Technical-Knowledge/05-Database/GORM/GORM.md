@@ -57,3 +57,12 @@ GORM v1.31.2 is the latest release observed; its fixes include cleanup behavior 
 หัวข้อเหล่านี้อธิบายแนวคิดและการตัดสินใจที่เกี่ยวข้อง โดยเนื้อหาสำคัญอยู่ใน Vault ไม่ต้องเปิดเว็บเพื่ออ่านพื้นฐาน:
 
 [[Go Error Handling]] · [[Database-Transactions]] · [[Database Connection Pooling]]
+
+
+## คำสั่งและสูตรใช้งาน
+
+[[Technical-Knowledge/12-Command-Reference/GORM/GORM-Recipes|GORM Recipes]] — ตัวอย่าง API/คำสั่งที่ใช้บ่อย
+
+## Reference Catalog
+
+[[Technical-Knowledge/13-References/Reference-Catalog|Browse all references by topic]]

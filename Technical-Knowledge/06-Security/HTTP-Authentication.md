@@ -33,3 +33,7 @@ sources: [https://developer.mozilla.org/en-US/docs/Web/HTTP/Authentication]
 
 - [เอกสาร/มาตรฐานทางการ](https://developer.mozilla.org/en-US/docs/Web/HTTP/Authentication)
 - ตรวจลิงก์เมื่อ 2026-11-20
+
+## Reference Catalog
+
+[[Technical-Knowledge/13-References/Reference-Catalog|Browse all references by topic]]

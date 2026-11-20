@@ -33,3 +33,7 @@ cookie flags, rotation, expiration, CSRF protection, revocation และ distri
 
 - [เอกสาร/มาตรฐานทางการ](https://developer.mozilla.org/en-US/docs/Web/HTTP/Guides/Cookies)
 - ตรวจลิงก์เมื่อ 2026-11-20
+
+## Reference Catalog
+
+[[Technical-Knowledge/13-References/Reference-Catalog|Browse all references by topic]]

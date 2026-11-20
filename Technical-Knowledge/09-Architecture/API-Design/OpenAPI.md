@@ -33,3 +33,7 @@ paths, operations, schemas, security schemes และ versioning ของ API 
 
 - [เอกสาร/มาตรฐานทางการ](https://spec.openapis.org/oas/latest.html)
 - ตรวจลิงก์เมื่อ 2026-11-20
+
+## Reference Catalog
+
+[[Technical-Knowledge/13-References/Reference-Catalog|Browse all references by topic]]

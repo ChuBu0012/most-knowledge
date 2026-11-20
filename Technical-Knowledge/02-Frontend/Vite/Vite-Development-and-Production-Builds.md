@@ -48,3 +48,7 @@ dev server เปิด network interface ภายนอกได้ถ้า�
 
 - [เอกสาร/มาตรฐานต้นทาง](https://vite.dev/guide/why.html)
 - เนื้อหาสรุปและตัวอย่างด้านบนเก็บใน Vault เพื่ออ่าน offline; ตรวจ version-specific details ก่อนใช้กับระบบจริง
+
+## Reference Catalog
+
+[[Technical-Knowledge/13-References/Reference-Catalog|Browse all references by topic]]

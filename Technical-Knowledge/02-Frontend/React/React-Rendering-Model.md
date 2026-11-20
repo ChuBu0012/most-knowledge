@@ -46,3 +46,7 @@ state setter ขอให้ React render รอบใหม่ ไม่ได�
 
 - [เอกสาร/มาตรฐานต้นทาง](https://react.dev/learn/render-and-commit)
 - เนื้อหาสรุปและตัวอย่างด้านบนเก็บใน Vault เพื่ออ่าน offline; ตรวจ version-specific details ก่อนใช้กับระบบจริง
+
+## Reference Catalog
+
+[[Technical-Knowledge/13-References/Reference-Catalog|Browse all references by topic]]

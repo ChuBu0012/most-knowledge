@@ -54,3 +54,7 @@ pin base image/digest ตาม policy, สแกน SBOM/vulnerabilities, build
 
 - [เอกสาร/มาตรฐานต้นทาง](https://docs.docker.com/build/building/best-practices/)
 - เนื้อหาสรุปและตัวอย่างด้านบนเก็บใน Vault เพื่ออ่าน offline; ตรวจ version-specific details ก่อนใช้กับระบบจริง
+
+## Reference Catalog
+
+[[Technical-Knowledge/13-References/Reference-Catalog|Browse all references by topic]]

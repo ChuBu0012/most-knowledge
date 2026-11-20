@@ -52,3 +52,7 @@ Snippet is a focused pattern; include package imports, types, error handling, va
 ## References
 
 - [fastapi.tiangolo.com](https://fastapi.tiangolo.com/tutorial/dependencies/)
+
+## Reference Catalog
+
+[[Technical-Knowledge/13-References/Reference-Catalog|Browse all references by topic]]

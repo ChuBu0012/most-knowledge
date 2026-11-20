@@ -59,3 +59,12 @@ Prisma ORM 8 ยังเป็น release candidate ณ 20 Nov 2026; อย่�
 ## แนวคิดและคู่มือภายใน Vault
 
 [[Database-Transactions]] · [[SQL Indexes and Query Plans]] · [[Database Connection Pooling]] · [[Technical-Knowledge/00-Home/Recent-Updates|สรุปอัปเดตทั้งหมด]]
+
+
+## คำสั่งและสูตรใช้งาน
+
+[[Technical-Knowledge/12-Command-Reference/Prisma/Prisma-Recipes|Prisma Recipes]] — ตัวอย่าง API/คำสั่งที่ใช้บ่อย
+
+## Reference Catalog
+
+[[Technical-Knowledge/13-References/Reference-Catalog|Browse all references by topic]]

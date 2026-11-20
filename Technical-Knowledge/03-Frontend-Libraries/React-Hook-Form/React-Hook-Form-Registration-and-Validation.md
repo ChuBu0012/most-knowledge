@@ -49,3 +49,7 @@ Snippet is a focused pattern; include package imports, types, error handling, va
 ## References
 
 - [react-hook-form.com](https://react-hook-form.com/docs/useform/register)
+
+## Reference Catalog
+
+[[Technical-Knowledge/13-References/Reference-Catalog|Browse all references by topic]]

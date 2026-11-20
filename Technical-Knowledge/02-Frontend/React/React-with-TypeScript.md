@@ -57,3 +57,12 @@ React 19.3 is stable. Type React component boundaries with explicit props, allow
 หัวข้อเหล่านี้อธิบายแนวคิดและการตัดสินใจที่เกี่ยวข้อง โดยเนื้อหาสำคัญอยู่ใน Vault ไม่ต้องเปิดเว็บเพื่ออ่านพื้นฐาน:
 
 [[React Rendering Model]] · [[TypeScript Type Narrowing]] · [[TypeScript Generics]] · [[React Component Composition]]
+
+
+## คำสั่งและสูตรใช้งาน
+
+[[React with TypeScript Recipes]] — task-first API และคำสั่งที่ใช้บ่อย
+
+## Reference Catalog
+
+[[Technical-Knowledge/13-References/Reference-Catalog|Browse all references by topic]]

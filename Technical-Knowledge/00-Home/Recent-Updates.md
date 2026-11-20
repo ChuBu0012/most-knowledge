@@ -181,3 +181,7 @@ Nuxt 4 เป็น active major และ Nuxt 3 สิ้นสุด maintena
 - Vitest 5: https://vitest.dev/releases.html · https://vitest.dev/guide/migration/
 - Playwright 1.65: https://playwright.dev/docs/release-notes
 - OAuth 2.0 Security BCP: https://www.rfc-editor.org/rfc/rfc9700
+
+## Reference Catalog
+
+[[Technical-Knowledge/13-References/Reference-Catalog|Browse all references by topic]]

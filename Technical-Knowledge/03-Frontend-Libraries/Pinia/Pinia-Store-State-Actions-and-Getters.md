@@ -48,3 +48,7 @@ destructure store field ตรง ๆ อาจทำให้ reactivity หา
 ## References
 
 - [pinia.vuejs.org](https://pinia.vuejs.org/core-concepts/)
+
+## Reference Catalog
+
+[[Technical-Knowledge/13-References/Reference-Catalog|Browse all references by topic]]

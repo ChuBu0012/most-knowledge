@@ -50,3 +50,7 @@ Hono 4.13.18 security fixes แสดงว่าควรอัปเดต mid
 
 - [hono.dev](https://hono.dev/docs/guides/middleware)
 - [hono.dev](https://hono.dev/docs/guides/validation)
+
+## Reference Catalog
+
+[[Technical-Knowledge/13-References/Reference-Catalog|Browse all references by topic]]

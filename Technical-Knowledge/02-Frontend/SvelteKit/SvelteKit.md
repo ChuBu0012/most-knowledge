@@ -58,3 +58,12 @@ SvelteKit 3 stable และ `sv` 1.0 ตั้งแต่ 1 Oct 2026; migratio
 ## แนวคิดและคู่มือภายใน Vault
 
 [[Svelte Runes and Reactivity]] · [[Vite Development and Production Builds]] · [[Technical-Knowledge/00-Home/Recent-Updates|สรุปอัปเดตทั้งหมด]]
+
+
+## คำสั่งและสูตรใช้งาน
+
+[[SvelteKit Recipes]] — task-first API และคำสั่งที่ใช้บ่อย
+
+## Reference Catalog
+
+[[Technical-Knowledge/13-References/Reference-Catalog|Browse all references by topic]]

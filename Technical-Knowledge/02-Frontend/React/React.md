@@ -58,3 +58,12 @@ UI ที่มี interaction และต้องการ ecosystem componen
 ## แนวคิดและคู่มือภายใน Vault
 
 [[React Rendering Model]] · [[React Effect Synchronization]] · [[React Server and Client Components]] · [[Technical-Knowledge/00-Home/Recent-Updates|สรุปอัปเดตทั้งหมด]]
+
+
+## คำสั่งและสูตรใช้งาน
+
+[[React Recipes]] — ค้น API/คำสั่งจากงานที่ต้องทำ พร้อมตัวอย่างและข้อควรระวัง
+
+## Reference Catalog
+
+[[Technical-Knowledge/13-References/Reference-Catalog|Browse all references by topic]]

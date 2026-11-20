@@ -46,3 +46,7 @@ expect(result).toBe(20);
 
 - [เอกสาร/มาตรฐานต้นทาง](https://martinfowler.com/articles/practical-test-pyramid.html)
 - เนื้อหาสรุปและตัวอย่างด้านบนเก็บใน Vault เพื่ออ่าน offline; ตรวจ version-specific details ก่อนใช้กับระบบจริง
+
+## Reference Catalog
+
+[[Technical-Knowledge/13-References/Reference-Catalog|Browse all references by topic]]

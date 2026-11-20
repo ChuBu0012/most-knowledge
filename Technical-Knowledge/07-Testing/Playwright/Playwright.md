@@ -58,3 +58,12 @@ Release notes ถึง 1.65: runner รองรับ Bun พร้อมข�
 ## แนวคิดและคู่มือภายใน Vault
 
 [[Playwright Locators and Auto-Waiting]] · [[Unit Integration and End-to-End Tests]] · [[Technical-Knowledge/00-Home/Recent-Updates|สรุปอัปเดตทั้งหมด]]
+
+
+## คำสั่งและสูตรใช้งาน
+
+[[Playwright Recipes]] — task-first walkthrough สำหรับการใช้งานจริง
+
+## Reference Catalog
+
+[[Technical-Knowledge/13-References/Reference-Catalog|Browse all references by topic]]
