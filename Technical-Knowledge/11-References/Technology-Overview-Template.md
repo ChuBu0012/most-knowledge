@@ -1,7 +1,7 @@
 ---
 title: "Technology Name"
 type: technology
-domain: domain-name
+domain: technical
 technology: "Technology Name"
 level: beginner-to-advanced
 tags: [technology, domain]

@@ -1,12 +1,10 @@
 ---
 title: "Nuxt"
 type: technology
-domain: nuxt
+domain: frontend
 technology: "Nuxt"
 level: beginner-to-advanced
-tags:
-  - nuxt
-  - nuxt
+tags: [technical-knowledge, frontend, nuxt]
 status: overview
 last_verified: 2026-11-20
 sources:
@@ -46,3 +44,17 @@ Vue meta-framework ที่รวม file-based routing, server rendering, data
 - [เอกสารทางการ](https://nuxt.com/docs)
 - [ข่าว/รุ่น/มาตรฐาน](https://nuxt.com/blog)
 - ตรวจลิงก์และสถานะเอกสารเมื่อ **2026-11-20**; หน้านี้ไม่ได้ pin patch version เพราะเอกสารต้นทางอัปเดตต่อเนื่อง
+
+## อ่านเนื้อหาออฟไลน์
+
+หัวข้อเหล่านี้อธิบายแนวคิดและการตัดสินใจที่เกี่ยวข้อง โดยเนื้อหาสำคัญอยู่ใน Vault ไม่ต้องเปิดเว็บเพื่ออ่านพื้นฐาน:
+
+[[Vue Composables]] · [[Nitro]] · [[Cookie and Session Security]]
+
+## Update snapshot — 2026-11-20
+
+Nuxt 4 เป็น active major; Nuxt 3 สิ้นสุด maintenance 31 Jul 2026 ตาม roadmap. ตรวจ module compatibility (โดยเฉพาะ server/auth modules) กับ Nuxt 4 และ Nitro รุ่นใน lockfile ก่อน upgrade.
+
+## แนวคิดและคู่มือภายใน Vault
+
+[[Vue Composables]] · [[Nitro]] · [[Cookie and Session Security]] · [[Technical-Knowledge/00-Home/Recent-Updates|สรุปอัปเดตทั้งหมด]]

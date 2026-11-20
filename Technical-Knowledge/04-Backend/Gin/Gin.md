@@ -1,12 +1,10 @@
 ---
 title: "Gin"
 type: technology
-domain: gin
+domain: backend
 technology: "Gin"
 level: beginner-to-advanced
-tags:
-  - gin
-  - gin
+tags: [technical-knowledge, backend, gin]
 status: overview
 last_verified: 2026-11-20
 sources:
@@ -46,3 +44,17 @@ Go API ทั่วไปที่ต้องการ framework เบาแ�
 - [เอกสารทางการ](https://gin-gonic.com/en/docs/)
 - [ข่าว/รุ่น/มาตรฐาน](https://github.com/gin-gonic/gin/releases)
 - ตรวจลิงก์และสถานะเอกสารเมื่อ **2026-11-20**; หน้านี้ไม่ได้ pin patch version เพราะเอกสารต้นทางอัปเดตต่อเนื่อง
+
+## อ่านเนื้อหาออฟไลน์
+
+หัวข้อเหล่านี้อธิบายแนวคิดและการตัดสินใจที่เกี่ยวข้อง โดยเนื้อหาสำคัญอยู่ใน Vault ไม่ต้องเปิดเว็บเพื่ออ่านพื้นฐาน:
+
+[[HTTP Request Lifecycle]] · [[HTTP Semantics and REST]] · [[Go Error Handling]] · [[Go Context]]
+
+## Update snapshot — 2026-11-20
+
+Gin v1.12.0 เป็น latest stable tag ที่ตรวจ; เพิ่ม `encoding.TextUnmarshaler` ใน binding และ error accessors. ตรวจ release note กับ Go compatibility ก่อน upgrade.
+
+## แนวคิดและคู่มือภายใน Vault
+
+[[HTTP Request Lifecycle]] · [[Go Error Handling]] · [[Go Context]] · [[Technical-Knowledge/00-Home/Recent-Updates|สรุปอัปเดตทั้งหมด]]

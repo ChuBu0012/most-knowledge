@@ -1,12 +1,10 @@
 ---
 title: "Reka UI"
 type: technology
-domain: reka-ui
+domain: frontend-libraries
 technology: "Reka UI"
 level: beginner-to-advanced
-tags:
-  - reka-ui
-  - reka-ui
+tags: [technical-knowledge, frontend-libraries, reka-ui]
 status: overview
 last_verified: 2026-11-20
 sources:
@@ -37,6 +35,13 @@ sources:
 3. ศึกษาการจัดการ error, testing, security และ production configuration ที่เกี่ยวข้อง
 4. เปรียบเทียบ trade-offs กับทางเลือกที่ลิงก์ด้านล่างก่อนยึดเป็นมาตรฐานของโปรเจกต์
 
+## Update snapshot — 2026-11-20
+
+Reka UI 2.11.0 (5 Oct) added Field/Form primitives, TagGroup, and keyboard navigation improvements across listbox/select/tree. It is an unstyled Vue primitive layer: application code owns visual design, while primitives provide interaction and accessibility behavior.
+
+แหล่งยืนยัน snapshot: - [https://github.com/unovue/reka-ui/releases](https://github.com/unovue/reka-ui/releases)
+- [https://reka-ui.com/](https://reka-ui.com/)
+
 ## ความสัมพันธ์กับเรื่องอื่น
 
 [[Vue]] · [[Tailwind CSS]] · [[DaisyUI]]
@@ -46,3 +51,9 @@ sources:
 - [เอกสารทางการ](https://reka-ui.com/docs/overview/introduction)
 - [ข่าว/รุ่น/มาตรฐาน](https://github.com/unovue/reka-ui/releases)
 - ตรวจลิงก์และสถานะเอกสารเมื่อ **2026-11-20**; หน้านี้ไม่ได้ pin patch version เพราะเอกสารต้นทางอัปเดตต่อเนื่อง
+
+## อ่านเนื้อหาออฟไลน์
+
+หัวข้อเหล่านี้อธิบายแนวคิดและการตัดสินใจที่เกี่ยวข้อง โดยเนื้อหาสำคัญอยู่ใน Vault ไม่ต้องเปิดเว็บเพื่ออ่านพื้นฐาน:
+
+[[Vue Reactivity and Computed State]] · [[Utility-First CSS and Design Tokens]]

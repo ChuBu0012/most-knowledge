@@ -1,12 +1,10 @@
 ---
 title: "OAuth 2.0"
 type: technology
-domain: oauth-2.0
+domain: security
 technology: "OAuth 2.0"
 level: beginner-to-advanced
-tags:
-  - oauth-20
-  - oauth-20
+tags: [technical-knowledge, security, oauth-2.0]
 status: overview
 last_verified: 2026-11-20
 sources:
@@ -37,6 +35,13 @@ sources:
 3. ศึกษาการจัดการ error, testing, security และ production configuration ที่เกี่ยวข้อง
 4. เปรียบเทียบ trade-offs กับทางเลือกที่ลิงก์ด้านล่างก่อนยึดเป็นมาตรฐานของโปรเจกต์
 
+## Update snapshot — 2026-11-20
+
+RFC 9700 remains the current OAuth 2.0 Security Best Current Practice. Prefer Authorization Code with PKCE, exact redirect URI matching, issuer-aware validation, and modern sender/client protections; avoid implicit and resource-owner-password flows.
+
+แหล่งยืนยัน snapshot: - [https://www.rfc-editor.org/rfc/rfc9700](https://www.rfc-editor.org/rfc/rfc9700)
+- [https://www.rfc-editor.org/rfc/rfc6749](https://www.rfc-editor.org/rfc/rfc6749)
+
 ## ความสัมพันธ์กับเรื่องอื่น
 
 [[JWT]] · [[HTTP]] · [[Session Management]]
@@ -46,3 +51,9 @@ sources:
 - [เอกสารทางการ](https://www.rfc-editor.org/rfc/rfc6749)
 - [ข่าว/รุ่น/มาตรฐาน](https://www.rfc-editor.org/rfc/rfc9700)
 - ตรวจลิงก์และสถานะเอกสารเมื่อ **2026-11-20**; หน้านี้ไม่ได้ pin patch version เพราะเอกสารต้นทางอัปเดตต่อเนื่อง
+
+## อ่านเนื้อหาออฟไลน์
+
+หัวข้อเหล่านี้อธิบายแนวคิดและการตัดสินใจที่เกี่ยวข้อง โดยเนื้อหาสำคัญอยู่ใน Vault ไม่ต้องเปิดเว็บเพื่ออ่านพื้นฐาน:
+
+[[OAuth Authorization Code with PKCE]] · [[JWT Validation]] · [[HTTP Request Lifecycle]]

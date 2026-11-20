@@ -1,12 +1,10 @@
 ---
 title: "Zod"
 type: technology
-domain: zod
+domain: frontend-libraries
 technology: "Zod"
 level: beginner-to-advanced
-tags:
-  - zod
-  - zod
+tags: [technical-knowledge, frontend-libraries, zod]
 status: overview
 last_verified: 2026-11-20
 sources:
@@ -46,3 +44,17 @@ sources:
 - [เอกสารทางการ](https://zod.dev/)
 - [ข่าว/รุ่น/มาตรฐาน](https://github.com/colinhacks/zod/releases)
 - ตรวจลิงก์และสถานะเอกสารเมื่อ **2026-11-20**; หน้านี้ไม่ได้ pin patch version เพราะเอกสารต้นทางอัปเดตต่อเนื่อง
+
+## อ่านเนื้อหาออฟไลน์
+
+หัวข้อเหล่านี้อธิบายแนวคิดและการตัดสินใจที่เกี่ยวข้อง โดยเนื้อหาสำคัญอยู่ใน Vault ไม่ต้องเปิดเว็บเพื่ออ่านพื้นฐาน:
+
+[[Zod Runtime Validation]] · [[TypeScript Type Narrowing]]
+
+## Update snapshot — 2026-11-20
+
+Zod 4.6 เพิ่ม `.validate()`, `z.withParser()` และ JSON Schema behavior ที่เข้มขึ้น; API v4 ไม่ควรปน snippet v3. ตรวจ adapters/resolvers ที่ผูกกับ Zod major.
+
+## แนวคิดและคู่มือภายใน Vault
+
+[[Zod Runtime Validation]] · [[TypeScript Type Narrowing]] · [[Technical-Knowledge/00-Home/Recent-Updates|สรุปอัปเดตทั้งหมด]]

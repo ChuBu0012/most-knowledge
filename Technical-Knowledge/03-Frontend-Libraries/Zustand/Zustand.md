@@ -1,12 +1,10 @@
 ---
 title: "Zustand"
 type: technology
-domain: zustand
+domain: frontend-libraries
 technology: "Zustand"
 level: beginner-to-advanced
-tags:
-  - zustand
-  - zustand
+tags: [technical-knowledge, frontend-libraries, zustand]
 status: overview
 last_verified: 2026-11-20
 sources:
@@ -46,3 +44,17 @@ sources:
 - [เอกสารทางการ](https://zustand.docs.pmnd.rs/getting-started/introduction)
 - [ข่าว/รุ่น/มาตรฐาน](https://github.com/pmndrs/zustand/releases)
 - ตรวจลิงก์และสถานะเอกสารเมื่อ **2026-11-20**; หน้านี้ไม่ได้ pin patch version เพราะเอกสารต้นทางอัปเดตต่อเนื่อง
+
+## อ่านเนื้อหาออฟไลน์
+
+หัวข้อเหล่านี้อธิบายแนวคิดและการตัดสินใจที่เกี่ยวข้อง โดยเนื้อหาสำคัญอยู่ใน Vault ไม่ต้องเปิดเว็บเพื่ออ่านพื้นฐาน:
+
+[[State Management Concepts]] · [[React State and Batching]]
+
+## Update snapshot — 2026-11-20
+
+v5.1.0 (6 Nov 2026) ปรับ persist ให้รองรับ PromiseLike storage/migrations และให้ `rehydrate()` คืน Promise; รอ hydration เมื่อ UI ต้องใช้ persisted state และทดสอบ SSR.
+
+## แนวคิดและคู่มือภายใน Vault
+
+[[State Management Concepts]] · [[React State and Batching]] · [[Technical-Knowledge/00-Home/Recent-Updates|สรุปอัปเดตทั้งหมด]]

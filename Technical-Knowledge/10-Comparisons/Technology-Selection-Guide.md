@@ -55,6 +55,6 @@ last_verified: 2026-11-20
 
 ## อ่านต่อ
 
-- [[00-Home/Technology-Index|Technology Index]]
-- [[00-Home/Knowledge-Map|Knowledge Map]]
-- [[00-Home/Version-Matrix|ตรวจเวอร์ชันและอัปเดต]]
+- [[Technical-Knowledge/00-Home/Technology-Index|Technology Index]]
+- [[Technical-Knowledge/00-Home/Knowledge-Map|Knowledge Map]]
+- [[Technical-Knowledge/00-Home/Version-Matrix|ตรวจเวอร์ชันและอัปเดต]]

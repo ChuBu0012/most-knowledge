@@ -1,17 +1,16 @@
 ---
 title: "Vite"
 type: technology
-domain: vite
+domain: frontend
 technology: "Vite"
 level: beginner-to-advanced
-tags:
-  - vite
-  - vite
+tags: [technical-knowledge, frontend, vite]
 status: overview
 last_verified: 2026-11-20
 sources:
   - https://vite.dev/guide/
   - https://vite.dev/blog/
+  - https://vite.dev/releases
 ---
 
 # Vite
@@ -46,3 +45,17 @@ SPA หรือ library frontend ที่ต้องการ feedback loop �
 - [เอกสารทางการ](https://vite.dev/guide/)
 - [ข่าว/รุ่น/มาตรฐาน](https://vite.dev/blog/)
 - ตรวจลิงก์และสถานะเอกสารเมื่อ **2026-11-20**; หน้านี้ไม่ได้ pin patch version เพราะเอกสารต้นทางอัปเดตต่อเนื่อง
+
+## อ่านเนื้อหาออฟไลน์
+
+หัวข้อเหล่านี้อธิบายแนวคิดและการตัดสินใจที่เกี่ยวข้อง โดยเนื้อหาสำคัญอยู่ใน Vault ไม่ต้องเปิดเว็บเพื่ออ่านพื้นฐาน:
+
+[[JavaScript Modules]] · [[Vite Development and Production Builds]]
+
+## Update snapshot — 2026-11-20
+
+Vite 8.3 release train; Vite 8 รวม bundling ผ่าน Rolldown และต้องใช้ Node 20.19+ หรือ 22.12+. ตรวจ [supported releases](https://vite.dev/releases) และ plugin compatibility. TypeScript transpilation ไม่ใช่การ type-check; รัน checker แยก.
+
+## แนวคิดและคู่มือภายใน Vault
+
+[[Vite Development and Production Builds]] · [[JavaScript Modules]] · [[Vitest]] · [[Technical-Knowledge/00-Home/Recent-Updates|สรุปอัปเดตทั้งหมด]]

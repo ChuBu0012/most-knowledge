@@ -1,12 +1,10 @@
 ---
 title: "TanStack Form"
 type: technology
-domain: tanstack
+domain: frontend-libraries
 technology: "TanStack Form"
 level: beginner-to-advanced
-tags:
-  - tanstack-form
-  - tanstack
+tags: [technical-knowledge, frontend-libraries, tanstack]
 status: overview
 last_verified: 2026-11-20
 sources:
@@ -46,3 +44,17 @@ sources:
 - [เอกสารทางการ](https://tanstack.com/form/latest/docs/overview)
 - [ข่าว/รุ่น/มาตรฐาน](https://tanstack.com/blog)
 - ตรวจลิงก์และสถานะเอกสารเมื่อ **2026-11-20**; หน้านี้ไม่ได้ pin patch version เพราะเอกสารต้นทางอัปเดตต่อเนื่อง
+
+## อ่านเนื้อหาออฟไลน์
+
+หัวข้อเหล่านี้อธิบายแนวคิดและการตัดสินใจที่เกี่ยวข้อง โดยเนื้อหาสำคัญอยู่ใน Vault ไม่ต้องเปิดเว็บเพื่ออ่านพื้นฐาน:
+
+[[Browser Form State]] · [[Zod Runtime Validation]]
+
+## Update snapshot — 2026-11-20
+
+Form v2 ยังเป็น alpha ตามประกาศ Aug 2026. Validator model และ APIs ถูกออกแบบใหม่; เลือก stable v1 สำหรับ production เว้นแต่ pin prerelease และยอมรับ migration risk.
+
+## แนวคิดและคู่มือภายใน Vault
+
+[[Browser Form State]] · [[Zod Runtime Validation]] · [[Technical-Knowledge/00-Home/Recent-Updates|สรุปอัปเดตทั้งหมด]]

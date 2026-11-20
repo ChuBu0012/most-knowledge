@@ -1,12 +1,10 @@
 ---
 title: "Fiber"
 type: technology
-domain: fiber
+domain: backend
 technology: "Fiber"
 level: beginner-to-advanced
-tags:
-  - fiber
-  - fiber
+tags: [technical-knowledge, backend, fiber]
 status: overview
 last_verified: 2026-11-20
 sources:
@@ -46,3 +44,17 @@ Go web framework ที่มี API คล้าย Express และสร้�
 - [เอกสารทางการ](https://docs.gofiber.io/)
 - [ข่าว/รุ่น/มาตรฐาน](https://github.com/gofiber/fiber/releases)
 - ตรวจลิงก์และสถานะเอกสารเมื่อ **2026-11-20**; หน้านี้ไม่ได้ pin patch version เพราะเอกสารต้นทางอัปเดตต่อเนื่อง
+
+## อ่านเนื้อหาออฟไลน์
+
+หัวข้อเหล่านี้อธิบายแนวคิดและการตัดสินใจที่เกี่ยวข้อง โดยเนื้อหาสำคัญอยู่ใน Vault ไม่ต้องเปิดเว็บเพื่ออ่านพื้นฐาน:
+
+[[HTTP Request Lifecycle]] · [[HTTP Semantics and REST]] · [[Go Context]]
+
+## Update snapshot — 2026-11-20
+
+Fiber v3.7.0 (9 Nov 2026) อัปเดต fasthttp 1.78 และรองรับ map fields ใน query/form binder; Fiber v3.6 กำหนด Go 1.26+. Fiber ใช้ fasthttp APIs ซึ่งไม่เท่ากับ `net/http`.
+
+## แนวคิดและคู่มือภายใน Vault
+
+[[HTTP Request Lifecycle]] · [[HTTP Semantics and REST]] · [[Go Context]] · [[Technical-Knowledge/00-Home/Recent-Updates|สรุปอัปเดตทั้งหมด]]

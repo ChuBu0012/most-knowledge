@@ -1,12 +1,10 @@
 ---
 title: "Hono"
 type: technology
-domain: hono
+domain: backend
 technology: "Hono"
 level: beginner-to-advanced
-tags:
-  - hono
-  - hono
+tags: [technical-knowledge, backend, hono]
 status: overview
 last_verified: 2026-11-20
 sources:
@@ -46,3 +44,17 @@ web framework ขนาดเล็กตาม Web Standards ทำงานไ
 - [เอกสารทางการ](https://hono.dev/docs/)
 - [ข่าว/รุ่น/มาตรฐาน](https://github.com/honojs/hono/releases)
 - ตรวจลิงก์และสถานะเอกสารเมื่อ **2026-11-20**; หน้านี้ไม่ได้ pin patch version เพราะเอกสารต้นทางอัปเดตต่อเนื่อง
+
+## อ่านเนื้อหาออฟไลน์
+
+หัวข้อเหล่านี้อธิบายแนวคิดและการตัดสินใจที่เกี่ยวข้อง โดยเนื้อหาสำคัญอยู่ใน Vault ไม่ต้องเปิดเว็บเพื่ออ่านพื้นฐาน:
+
+[[HTTP Request Lifecycle]] · [[HTTP Semantics and REST]] · [[JavaScript Error Handling]]
+
+## Update snapshot — 2026-11-20
+
+Hono 4.13.19 (16 Nov 2026); 4.13.18 แก้ security issues ใน request validator/body limits, mount path และ static path decoding. หากใช้ middleware เหล่านี้ อัปเดตตาม [release notes](https://github.com/honojs/hono/releases) และ retest edge adapters.
+
+## แนวคิดและคู่มือภายใน Vault
+
+[[HTTP Request Lifecycle]] · [[HTTP Semantics and REST]] · [[JavaScript Error Handling]] · [[Technical-Knowledge/00-Home/Recent-Updates|สรุปอัปเดตทั้งหมด]]

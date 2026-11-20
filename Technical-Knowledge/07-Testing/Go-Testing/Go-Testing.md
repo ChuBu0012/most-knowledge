@@ -1,12 +1,10 @@
 ---
 title: "Go Testing"
 type: technology
-domain: go-testing
+domain: testing
 technology: "Go Testing"
 level: beginner-to-advanced
-tags:
-  - go-testing
-  - go-testing
+tags: [technical-knowledge, testing, go-testing]
 status: overview
 last_verified: 2026-11-20
 sources:
@@ -46,3 +44,17 @@ sources:
 - [เอกสารทางการ](https://go.dev/doc/tutorial/add-a-test)
 - [ข่าว/รุ่น/มาตรฐาน](https://go.dev/doc/devel/release)
 - ตรวจลิงก์และสถานะเอกสารเมื่อ **2026-11-20**; หน้านี้ไม่ได้ pin patch version เพราะเอกสารต้นทางอัปเดตต่อเนื่อง
+
+## อ่านเนื้อหาออฟไลน์
+
+หัวข้อเหล่านี้อธิบายแนวคิดและการตัดสินใจที่เกี่ยวข้อง โดยเนื้อหาสำคัญอยู่ใน Vault ไม่ต้องเปิดเว็บเพื่ออ่านพื้นฐาน:
+
+[[Go Table-Driven Tests]] · [[Unit Integration and End-to-End Tests]] · [[Go Error Handling]]
+
+## Update snapshot — 2026-11-20
+
+Go 1.27 `testing` เพิ่ม ArtifactDir สำหรับ output จาก tests/benchmarks/fuzzing; พฤติกรรม test runner และ toolchain ต้อง match Go version ที่ใช้ใน CI.
+
+## แนวคิดและคู่มือภายใน Vault
+
+[[Go Table-Driven Tests]] · [[Unit Integration and End-to-End Tests]] · [[Technical-Knowledge/00-Home/Recent-Updates|สรุปอัปเดตทั้งหมด]]

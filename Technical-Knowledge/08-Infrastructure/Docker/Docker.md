@@ -1,12 +1,10 @@
 ---
 title: "Docker"
 type: technology
-domain: docker
+domain: infrastructure
 technology: "Docker"
 level: beginner-to-advanced
-tags:
-  - docker
-  - docker
+tags: [technical-knowledge, infrastructure, docker]
 status: overview
 last_verified: 2026-11-20
 sources:
@@ -37,6 +35,13 @@ sources:
 3. ศึกษาการจัดการ error, testing, security และ production configuration ที่เกี่ยวข้อง
 4. เปรียบเทียบ trade-offs กับทางเลือกที่ลิงก์ด้านล่างก่อนยึดเป็นมาตรฐานของโปรเจกต์
 
+## Update snapshot — 2026-11-20
+
+Use the current Docker Engine and BuildKit documentation as the version source; behavior is now shaped by BuildKit builders, cache exporters, and Compose v5. Build reproducibly with pinned base images, explicit build contexts, and secrets mounts rather than build arguments for credentials.
+
+แหล่งยืนยัน snapshot: - [https://docs.docker.com/engine/release-notes/](https://docs.docker.com/engine/release-notes/)
+- [https://docs.docker.com/build/](https://docs.docker.com/build/)
+
 ## ความสัมพันธ์กับเรื่องอื่น
 
 [[Docker Compose]] · [[Nginx]] · [[Redis]]
@@ -46,3 +51,9 @@ sources:
 - [เอกสารทางการ](https://docs.docker.com/)
 - [ข่าว/รุ่น/มาตรฐาน](https://docs.docker.com/engine/release-notes/)
 - ตรวจลิงก์และสถานะเอกสารเมื่อ **2026-11-20**; หน้านี้ไม่ได้ pin patch version เพราะเอกสารต้นทางอัปเดตต่อเนื่อง
+
+## อ่านเนื้อหาออฟไลน์
+
+หัวข้อเหล่านี้อธิบายแนวคิดและการตัดสินใจที่เกี่ยวข้อง โดยเนื้อหาสำคัญอยู่ใน Vault ไม่ต้องเปิดเว็บเพื่ออ่านพื้นฐาน:
+
+[[Docker Image Layers and Reproducible Builds]] · [[Docker Compose Service Networking and Health]]

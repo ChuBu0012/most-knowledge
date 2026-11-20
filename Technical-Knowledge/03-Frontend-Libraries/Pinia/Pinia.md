@@ -1,12 +1,10 @@
 ---
 title: "Pinia"
 type: technology
-domain: pinia
+domain: frontend-libraries
 technology: "Pinia"
 level: beginner-to-advanced
-tags:
-  - pinia
-  - pinia
+tags: [technical-knowledge, frontend-libraries, pinia]
 status: overview
 last_verified: 2026-11-20
 sources:
@@ -46,3 +44,17 @@ Vue app มี state ที่ต้องใช้ร่วมกันหล�
 - [เอกสารทางการ](https://pinia.vuejs.org/introduction.html)
 - [ข่าว/รุ่น/มาตรฐาน](https://github.com/vuejs/pinia/releases)
 - ตรวจลิงก์และสถานะเอกสารเมื่อ **2026-11-20**; หน้านี้ไม่ได้ pin patch version เพราะเอกสารต้นทางอัปเดตต่อเนื่อง
+
+## อ่านเนื้อหาออฟไลน์
+
+หัวข้อเหล่านี้อธิบายแนวคิดและการตัดสินใจที่เกี่ยวข้อง โดยเนื้อหาสำคัญอยู่ใน Vault ไม่ต้องเปิดเว็บเพื่ออ่านพื้นฐาน:
+
+[[Vue Reactivity and Computed State]] · [[Vue Composables]] · [[State Management Concepts]]
+
+## Update snapshot — 2026-11-20
+
+v4.1.0 (14 Oct 2026) เพิ่ม `getStores()` และ diagnostics สำหรับ store disposal; v4 เป็น ESM-only. ตรวจ Vue/Nuxt plugin และ SSR hydration compatibility ก่อนอัปเดต.
+
+## แนวคิดและคู่มือภายใน Vault
+
+[[Vue Reactivity and Computed State]] · [[Vue Composables]] · [[State Management Concepts]] · [[Technical-Knowledge/00-Home/Recent-Updates|สรุปอัปเดตทั้งหมด]]

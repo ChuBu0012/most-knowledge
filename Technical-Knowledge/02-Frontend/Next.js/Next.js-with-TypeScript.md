@@ -1,12 +1,10 @@
 ---
 title: "Next.js with TypeScript"
 type: technology
-domain: next.js
+domain: frontend
 technology: "Next.js with TypeScript"
 level: beginner-to-advanced
-tags:
-  - nextjs-with-typescript
-  - nextjs
+tags: [technical-knowledge, frontend, next.js]
 status: overview
 last_verified: 2026-11-20
 sources:
@@ -43,6 +41,20 @@ React framework ที่รวม routing, server rendering, data loading แ�
 
 ## แหล่งข้อมูลและการตรวจสอบ
 
-- [เอกสารทางการ](https://nextjs.org/docs)
+- [เอกสารทางการ](https://nextjs.org/docs)ไ
 - [ข่าว/รุ่น/มาตรฐาน](https://nextjs.org/blog)
 - ตรวจลิงก์และสถานะเอกสารเมื่อ **2026-11-20**; หน้านี้ไม่ได้ pin patch version เพราะเอกสารต้นทางอัปเดตต่อเนื่อง
+
+## อ่านเนื้อหาออฟไลน์
+
+หัวข้อเหล่านี้อธิบายแนวคิดและการตัดสินใจที่เกี่ยวข้อง โดยเนื้อหาสำคัญอยู่ใน Vault ไม่ต้องเปิดเว็บเพื่ออ่านพื้นฐาน:
+
+[[React Server and Client Components]] · [[HTTP Semantics and REST]] · [[Cookie and Session Security]]
+
+## Update snapshot — 2026-11-20
+
+16.4 (6 Oct 2026) เพิ่ม lazy compilation, ลด Turbopack output, รับ React 19.3 features และปรับ Cache Components. เข้าใจ cache scope/invalidations และ Node runtime requirements จาก [official release notes](https://nextjs.org/blog) ก่อนนำ pattern เดิมมาใช้.
+
+## แนวคิดและคู่มือภายใน Vault
+
+[[React Server and Client Components]] · [[HTTP Semantics and REST]] · [[Technical-Knowledge/00-Home/Recent-Updates|สรุปอัปเดตทั้งหมด]]

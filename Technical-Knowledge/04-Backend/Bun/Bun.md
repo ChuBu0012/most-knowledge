@@ -1,12 +1,10 @@
 ---
 title: "Bun"
 type: technology
-domain: bun
+domain: backend
 technology: "Bun"
 level: beginner-to-advanced
-tags:
-  - bun
-  - bun
+tags: [technical-knowledge, backend, bun]
 status: overview
 last_verified: 2026-11-20
 sources:
@@ -46,3 +44,17 @@ JavaScript runtime และ toolkit รวม runtime, package manager, test ru
 - [เอกสารทางการ](https://bun.sh/docs)
 - [ข่าว/รุ่น/มาตรฐาน](https://bun.sh/blog)
 - ตรวจลิงก์และสถานะเอกสารเมื่อ **2026-11-20**; หน้านี้ไม่ได้ pin patch version เพราะเอกสารต้นทางอัปเดตต่อเนื่อง
+
+## อ่านเนื้อหาออฟไลน์
+
+หัวข้อเหล่านี้อธิบายแนวคิดและการตัดสินใจที่เกี่ยวข้อง โดยเนื้อหาสำคัญอยู่ใน Vault ไม่ต้องเปิดเว็บเพื่ออ่านพื้นฐาน:
+
+[[JavaScript Execution Model]] · [[JavaScript Modules]] · [[HTTP Request Lifecycle]]
+
+## Update snapshot — 2026-11-20
+
+Bun 1.4.4 เป็น patch ล่าสุดที่ตรวจ; 1.4 มี HTTP/2 ใน `Bun.serve`; 1.4.4 แก้ compile-cache shutdown regression. Bun APIs เข้ากันได้กับ Node ในระดับต่างกัน ให้ทดสอบ native modules, TLS และ graceful shutdown.
+
+## แนวคิดและคู่มือภายใน Vault
+
+[[JavaScript Execution Model]] · [[JavaScript Modules]] · [[HTTP Request Lifecycle]] · [[Technical-Knowledge/00-Home/Recent-Updates|สรุปอัปเดตทั้งหมด]]

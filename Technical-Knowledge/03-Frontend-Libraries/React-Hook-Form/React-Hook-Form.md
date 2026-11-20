@@ -1,12 +1,10 @@
 ---
 title: "React Hook Form"
 type: technology
-domain: react-hook-form
+domain: frontend-libraries
 technology: "React Hook Form"
 level: beginner-to-advanced
-tags:
-  - react-hook-form
-  - react-hook-form
+tags: [technical-knowledge, frontend-libraries, react-hook-form]
 status: overview
 last_verified: 2026-11-20
 sources:
@@ -37,6 +35,13 @@ sources:
 3. ศึกษาการจัดการ error, testing, security และ production configuration ที่เกี่ยวข้อง
 4. เปรียบเทียบ trade-offs กับทางเลือกที่ลิงก์ด้านล่างก่อนยึดเป็นมาตรฐานของโปรเจกต์
 
+## Update snapshot — 2026-11-20
+
+React Hook Form 7.92.0 (11 Nov) fixes stale async form validation and several state/registration inconsistencies. Version 8 is still beta in the release list. Keep validation results tied to current values and use a resolver whose major supports the installed schema library.
+
+แหล่งยืนยัน snapshot: - [https://github.com/react-hook-form/react-hook-form/releases](https://github.com/react-hook-form/react-hook-form/releases)
+- [https://github.com/react-hook-form/resolvers/releases](https://github.com/react-hook-form/resolvers/releases)
+
 ## ความสัมพันธ์กับเรื่องอื่น
 
 [[React]] · [[Zod]] · [[TanStack Form]]
@@ -46,3 +51,9 @@ sources:
 - [เอกสารทางการ](https://react-hook-form.com/get-started)
 - [ข่าว/รุ่น/มาตรฐาน](https://github.com/react-hook-form/react-hook-form/releases)
 - ตรวจลิงก์และสถานะเอกสารเมื่อ **2026-11-20**; หน้านี้ไม่ได้ pin patch version เพราะเอกสารต้นทางอัปเดตต่อเนื่อง
+
+## อ่านเนื้อหาออฟไลน์
+
+หัวข้อเหล่านี้อธิบายแนวคิดและการตัดสินใจที่เกี่ยวข้อง โดยเนื้อหาสำคัญอยู่ใน Vault ไม่ต้องเปิดเว็บเพื่ออ่านพื้นฐาน:
+
+[[Browser Form State]] · [[Zod Runtime Validation]]

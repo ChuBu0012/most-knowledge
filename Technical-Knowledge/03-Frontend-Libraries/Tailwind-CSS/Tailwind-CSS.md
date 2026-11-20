@@ -1,17 +1,16 @@
 ---
 title: "Tailwind CSS"
 type: technology
-domain: tailwind-css
+domain: frontend-libraries
 technology: "Tailwind CSS"
 level: beginner-to-advanced
-tags:
-  - tailwind-css
-  - tailwind-css
+tags: [technical-knowledge, frontend-libraries, tailwind-css]
 status: overview
 last_verified: 2026-11-20
 sources:
   - https://tailwindcss.com/docs
   - https://tailwindcss.com/blog
+  - https://tailwindcss.com/docs/upgrade-guide
 ---
 
 # Tailwind CSS
@@ -46,3 +45,17 @@ utility-first CSS framework สร้าง design โดยประกอบ u
 - [เอกสารทางการ](https://tailwindcss.com/docs)
 - [ข่าว/รุ่น/มาตรฐาน](https://tailwindcss.com/blog)
 - ตรวจลิงก์และสถานะเอกสารเมื่อ **2026-11-20**; หน้านี้ไม่ได้ pin patch version เพราะเอกสารต้นทางอัปเดตต่อเนื่อง
+
+## อ่านเนื้อหาออฟไลน์
+
+หัวข้อเหล่านี้อธิบายแนวคิดและการตัดสินใจที่เกี่ยวข้อง โดยเนื้อหาสำคัญอยู่ใน Vault ไม่ต้องเปิดเว็บเพื่ออ่านพื้นฐาน:
+
+[[Utility-First CSS and Design Tokens]] · [[Vite Development and Production Builds]]
+
+## Update snapshot — 2026-11-20
+
+Tailwind 4.3 (8 May 2026) เพิ่ม scrollbar utilities, logical properties และ palette; v4 ใช้ CSS-first theme/config และต้อง browser รุ่นใหม่กว่า v3.4. หากต้อง support Safari <16.4, Chrome <111 หรือ Firefox <128 ให้ตรวจ [upgrade guide](https://tailwindcss.com/docs/upgrade-guide) ก่อนย้าย.
+
+## แนวคิดและคู่มือภายใน Vault
+
+[[Utility-First CSS and Design Tokens]] · [[Technical-Knowledge/00-Home/Recent-Updates|สรุปอัปเดตทั้งหมด]]

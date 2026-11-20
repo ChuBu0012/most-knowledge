@@ -1,12 +1,10 @@
 ---
 title: "JWT"
 type: technology
-domain: jwt
+domain: security
 technology: "JWT"
 level: beginner-to-advanced
-tags:
-  - jwt
-  - jwt
+tags: [technical-knowledge, security, jwt]
 status: overview
 last_verified: 2026-11-20
 sources:
@@ -37,6 +35,13 @@ sources:
 3. ศึกษาการจัดการ error, testing, security และ production configuration ที่เกี่ยวข้อง
 4. เปรียบเทียบ trade-offs กับทางเลือกที่ลิงก์ด้านล่างก่อนยึดเป็นมาตรฐานของโปรเจกต์
 
+## Update snapshot — 2026-11-20
+
+JWT deployments should follow RFC 8725 Best Current Practices: pin allowed algorithms, validate issuer/audience/expiry, separate token types, and never treat decoding as verification. Use maintained JOSE libraries and rotate signing keys with an explicit key identifier strategy.
+
+แหล่งยืนยัน snapshot: - [https://www.rfc-editor.org/rfc/rfc8725](https://www.rfc-editor.org/rfc/rfc8725)
+- [https://www.rfc-editor.org/rfc/rfc7519](https://www.rfc-editor.org/rfc/rfc7519)
+
 ## ความสัมพันธ์กับเรื่องอื่น
 
 [[OAuth 2.0]] · [[HTTP Authentication]]
@@ -46,3 +51,9 @@ sources:
 - [เอกสารทางการ](https://www.rfc-editor.org/rfc/rfc7519)
 - [ข่าว/รุ่น/มาตรฐาน](https://www.rfc-editor.org/rfc/rfc8725)
 - ตรวจลิงก์และสถานะเอกสารเมื่อ **2026-11-20**; หน้านี้ไม่ได้ pin patch version เพราะเอกสารต้นทางอัปเดตต่อเนื่อง
+
+## อ่านเนื้อหาออฟไลน์
+
+หัวข้อเหล่านี้อธิบายแนวคิดและการตัดสินใจที่เกี่ยวข้อง โดยเนื้อหาสำคัญอยู่ใน Vault ไม่ต้องเปิดเว็บเพื่ออ่านพื้นฐาน:
+
+[[JWT Validation]] · [[Cookie and Session Security]] · [[OAuth Authorization Code with PKCE]]

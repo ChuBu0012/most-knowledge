@@ -1,12 +1,10 @@
 ---
 title: "Vue with TypeScript"
 type: technology
-domain: vue
+domain: frontend
 technology: "Vue with TypeScript"
 level: beginner-to-advanced
-tags:
-  - vue-with-typescript
-  - vue
+tags: [technical-knowledge, frontend, vue]
 status: overview
 last_verified: 2026-11-20
 sources:
@@ -46,3 +44,17 @@ sources:
 - [เอกสารทางการ](https://vuejs.org/guide/typescript/overview.html)
 - [ข่าว/รุ่น/มาตรฐาน](https://vuejs.org/about/releases.html)
 - ตรวจลิงก์และสถานะเอกสารเมื่อ **2026-11-20**; หน้านี้ไม่ได้ pin patch version เพราะเอกสารต้นทางอัปเดตต่อเนื่อง
+
+## อ่านเนื้อหาออฟไลน์
+
+หัวข้อเหล่านี้อธิบายแนวคิดและการตัดสินใจที่เกี่ยวข้อง โดยเนื้อหาสำคัญอยู่ใน Vault ไม่ต้องเปิดเว็บเพื่ออ่านพื้นฐาน:
+
+[[Vue Reactivity and Computed State]] · [[Vue Composables]] · [[TypeScript Type Narrowing]]
+
+## Update snapshot — 2026-11-20
+
+อัปเดต Vue/TypeScript definitions ตาม Vue minor; บาง type changes อาจต้องใช้ TypeScript รุ่นใหม่กว่า. ตรวจ [Vue release policy](https://vuejs.org/about/releases.html) และ Vue Language Tools เมื่อย้าย compiler/editor.
+
+## แนวคิดและคู่มือภายใน Vault
+
+[[Vue Reactivity and Computed State]] · [[TypeScript Type Narrowing]] · [[Technical-Knowledge/00-Home/Recent-Updates|สรุปอัปเดตทั้งหมด]]

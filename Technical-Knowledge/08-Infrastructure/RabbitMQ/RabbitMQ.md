@@ -1,17 +1,16 @@
 ---
 title: "RabbitMQ"
 type: technology
-domain: rabbitmq
+domain: infrastructure
 technology: "RabbitMQ"
 level: beginner-to-advanced
-tags:
-  - rabbitmq
-  - rabbitmq
+tags: [technical-knowledge, infrastructure, rabbitmq]
 status: overview
 last_verified: 2026-11-20
 sources:
   - https://www.rabbitmq.com/docs
   - https://www.rabbitmq.com/changelog.html
+  - https://www.rabbitmq.com/release-information
 ---
 
 # RabbitMQ
@@ -46,3 +45,17 @@ message broker รองรับ queues, exchanges, routing และ acknowled
 - [เอกสารทางการ](https://www.rabbitmq.com/docs)
 - [ข่าว/รุ่น/มาตรฐาน](https://www.rabbitmq.com/changelog.html)
 - ตรวจลิงก์และสถานะเอกสารเมื่อ **2026-11-20**; หน้านี้ไม่ได้ pin patch version เพราะเอกสารต้นทางอัปเดตต่อเนื่อง
+
+## อ่านเนื้อหาออฟไลน์
+
+หัวข้อเหล่านี้อธิบายแนวคิดและการตัดสินใจที่เกี่ยวข้อง โดยเนื้อหาสำคัญอยู่ใน Vault ไม่ต้องเปิดเว็บเพื่ออ่านพื้นฐาน:
+
+[[RabbitMQ Acknowledgements and Redelivery]] · [[Database-Transactions]] · [[Go Context]]
+
+## Update snapshot — 2026-11-20
+
+RabbitMQ 4.4.1 (16 Nov 2026) เพิ่ม quorum queue delayed/deferred messages, Erlang 29, post-quantum TLS และ native STOMP. ตรวจ [release information](https://www.rabbitmq.com/release-information) และ client protocol support.
+
+## แนวคิดและคู่มือภายใน Vault
+
+[[RabbitMQ Acknowledgements and Redelivery]] · [[Database-Transactions]] · [[Technical-Knowledge/00-Home/Recent-Updates|สรุปอัปเดตทั้งหมด]]

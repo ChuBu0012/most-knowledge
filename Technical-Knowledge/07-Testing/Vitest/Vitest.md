@@ -1,12 +1,10 @@
 ---
 title: "Vitest"
 type: technology
-domain: vitest
+domain: testing
 technology: "Vitest"
 level: beginner-to-advanced
-tags:
-  - vitest
-  - vitest
+tags: [technical-knowledge, testing, vitest]
 status: overview
 last_verified: 2026-11-20
 sources:
@@ -46,3 +44,17 @@ test runner สำหรับ JavaScript/TypeScript ผสาน Vite transform
 - [เอกสารทางการ](https://vitest.dev/guide/)
 - [ข่าว/รุ่น/มาตรฐาน](https://vitest.dev/blog/)
 - ตรวจลิงก์และสถานะเอกสารเมื่อ **2026-11-20**; หน้านี้ไม่ได้ pin patch version เพราะเอกสารต้นทางอัปเดตต่อเนื่อง
+
+## อ่านเนื้อหาออฟไลน์
+
+หัวข้อเหล่านี้อธิบายแนวคิดและการตัดสินใจที่เกี่ยวข้อง โดยเนื้อหาสำคัญอยู่ใน Vault ไม่ต้องเปิดเว็บเพื่ออ่านพื้นฐาน:
+
+[[Unit Integration and End-to-End Tests]] · [[Vite Development and Production Builds]]
+
+## Update snapshot — 2026-11-20
+
+Vitest 5.1 เป็น release train ปัจจุบัน; Vite >=6.4 และ Node >=22.12. `clearMocks` เปิดเป็นค่าเริ่มต้นและ Vite เป็น peer dependency ชัดเจน (Yarn ต้องเพิ่มเอง). อ่าน [migration guide](https://vitest.dev/guide/migration/) ก่อน major upgrade.
+
+## แนวคิดและคู่มือภายใน Vault
+
+[[Unit Integration and End-to-End Tests]] · [[Vite Development and Production Builds]] · [[Technical-Knowledge/00-Home/Recent-Updates|สรุปอัปเดตทั้งหมด]]

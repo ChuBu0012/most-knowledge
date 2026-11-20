@@ -1,12 +1,10 @@
 ---
 title: "Playwright"
 type: technology
-domain: playwright
+domain: testing
 technology: "Playwright"
 level: beginner-to-advanced
-tags:
-  - playwright
-  - playwright
+tags: [technical-knowledge, testing, playwright]
 status: overview
 last_verified: 2026-11-20
 sources:
@@ -46,3 +44,17 @@ sources:
 - [เอกสารทางการ](https://playwright.dev/docs/intro)
 - [ข่าว/รุ่น/มาตรฐาน](https://playwright.dev/docs/release-notes)
 - ตรวจลิงก์และสถานะเอกสารเมื่อ **2026-11-20**; หน้านี้ไม่ได้ pin patch version เพราะเอกสารต้นทางอัปเดตต่อเนื่อง
+
+## อ่านเนื้อหาออฟไลน์
+
+หัวข้อเหล่านี้อธิบายแนวคิดและการตัดสินใจที่เกี่ยวข้อง โดยเนื้อหาสำคัญอยู่ใน Vault ไม่ต้องเปิดเว็บเพื่ออ่านพื้นฐาน:
+
+[[Playwright Locators and Auto-Waiting]] · [[Unit Integration and End-to-End Tests]] · [[Cookie and Session Security]]
+
+## Update snapshot — 2026-11-20
+
+Release notes ถึง 1.65: runner รองรับ Bun พร้อมข้อจำกัดบางอย่าง; Node 20 ไม่อยู่ใน support test แล้ว. อ่าน breaking changes เรื่อง cookies, proxy credentials, TS class fields และ inert elements จาก [release notes](https://playwright.dev/docs/release-notes).
+
+## แนวคิดและคู่มือภายใน Vault
+
+[[Playwright Locators and Auto-Waiting]] · [[Unit Integration and End-to-End Tests]] · [[Technical-Knowledge/00-Home/Recent-Updates|สรุปอัปเดตทั้งหมด]]

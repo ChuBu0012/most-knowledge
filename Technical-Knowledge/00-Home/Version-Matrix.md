@@ -8,23 +8,43 @@ last_verified: 2026-11-20
 
 # Version & Update Tracker
 
-## สถานะการตรวจ
+เอกสารหลักของคลังนี้เป็นเนื้อหา Markdown ในเครื่อง ส่วนตารางนี้จด **การเปลี่ยนแปลงสำคัญที่ค้นพบจากแหล่งทางการ** ณ 2026-11-20 เพื่อให้เนื้อหา offline มีบริบทปัจจุบัน ไม่ใช่ตัวแทน changelog ทั้งหมด และไม่ควรใช้แทนการตรวจ patch/security release ก่อน deploy
 
-ตรวจแหล่งทางการและลิงก์รุ่นของทุก overview ในคลัง ณ **2026-11-20**. เพราะรายการครอบคลุมหลายสิบโครงการที่ปล่อยรุ่นถี่ ตารางนี้ใช้ official release/changelog เป็นแหล่งค่ารุ่นล่าสุด แทนการฝังเลข patch ที่จะหมดอายุเร็ว
+> [!important] อ่านเวอร์ชันอย่างปลอดภัย
+> แยก stable, maintenance, alpha, beta และ experimental ให้ชัด ตรวจ runtime/plugin compatibility และ migration guide ทุกครั้งที่อัปเกรด major. เวอร์ชันที่ระบุคือ snapshot ล่าสุดที่แหล่งทางการแสดงตอนค้น ไม่ใช่คำสั่งให้ใช้เลขนั้นกับทุกโปรเจกต์
 
-| รายการ | ข้อสังเกต ณ วันตรวจ | แหล่งตรวจต่อ |
+## Update snapshots
+
+| เทคโนโลยี | สถานะ/การเปลี่ยนแปลงที่ยืนยันจากแหล่งทางการ | ความหมายต่อการเรียนรู้ |
 |---|---|---|
-| React | React 19.3 ประกาศ stable วันที่ 2026-09-09 รวม View Transitions และ Fragment Refs | [React 19.3](https://react.dev/blog/2026/09/09/react-19-3) · [[React]] |
-| SvelteKit | SvelteKit 3 และ `sv` 1.0 ประกาศ 2026-10-01; ตรวจ migration ก่อนใช้คู่มือเก่า | [Svelte blog](https://svelte.dev/blog) · [[SvelteKit]] |
-| Vite | Vite 8 stable ประกาศ 2026-03-12; ตรวจ plugin compatibility | [Vite 8](https://vite.dev/blog/announcing-vite8) · [[Vite]] |
-| TanStack Form | Form v2 อยู่สถานะ alpha ตามประกาศ 2026-08-06; อย่าสับสนกับ stable v1 ใน production | [Form v2 alpha](https://tanstack.com/blog/announcing-tanstack-form-v2-alpha) · [[TanStack-Form]] |
-| TanStack Table | เอกสารปัจจุบันมีแนวทาง migration จาก v8 ไป v9; ตรวจ migration guide ก่อนอัปเกรด | [Table docs](https://tanstack.com/table/latest/docs/overview) · [[TanStack-Table]] |
-| OAuth 2.0 | ใช้ RFC 9700 เป็น security best current practice เพิ่มเติมจาก RFC 6749 | [RFC 9700](https://www.rfc-editor.org/rfc/rfc9700) · [[OAuth-2.0]] |
-| เทคโนโลยีอื่น | ใช้ official docs/changelog ที่ฝังในแต่ละหน้า overview; ไม่ pin patch version ในสารบัญ | [[Technology-Index]] |
+| React | 19.3 stable: View Transitions และ Fragment Refs เสถียร; เพิ่มการทำงานกับ Context จาก Server Components และปรับ transition/effect behavior | เรียน transition กับ server/client boundary จาก docs รุ่นล่าสุด; ทดสอบ hydration/Strict Mode |
+| Next.js | 16.4 (6 Oct): lazy compilation, Turbopack output เล็กลง, React 19.3 features และ Cache Components improvements | คู่มือ Next 16 ควรยึด App Router/cache model; อย่าคัด config เก่าจาก v13/v14 |
+| React Router | 8.5.2 (18 Nov): fixes route/action metadata, streamed Suspense, HEAD stream resource handling; v8.5 deprecates router view-transition API in favor of React 19.3 `<ViewTransition>` | แก้ migration note และตรวจ behavior เมื่อ action throw / HEAD stream |
+| Vue | Vue 3 เป็น major ปัจจุบัน; ใช้ release page ตรวจ minor/patch และแยก stable จาก prerelease | TypeScript definition compatibility อาจเปลี่ยนตาม minor; pin minor สำหรับ library compatibility |
+| Nuxt | Active major คือ Nuxt 4; หน้า deploy แสดง Nuxt 4.6.4; Nuxt 3 สิ้นสุด maintenance 31 Jul 2026 ตาม roadmap ที่ตรวจ | คู่มือใหม่ใช้ Nuxt 4 conventions; migration จาก Nuxt 3 ต้องตรวจ breaking changes |
+| SvelteKit | SvelteKit 3 stable 1 Oct 2026; `sv` 1.0 และ migration command `npx sv migrate sveltekit-3` | ตรวจ migration guide โดยเฉพาะ config, adapters และ API ที่เปลี่ยน |
+| Vite | Vite 8.3 เป็น current release train ที่หน้า releases แสดง; Vite 8 รวม Rolldown เป็น bundler หลัก | ตรวจ plugin ecosystem และ migration; Vite 8 ต้องการ Node 20.19+ หรือ 22.12+ |
+| Go | Go 1.27.4 (10 Nov) เป็น patch ล่าสุดที่ตรวจ; Go 1.27 เพิ่ม generic methods, `encoding/json/v2` และปรับ TLS/standard library | ตรวจ Go release page และ security releases ของ branch ที่ deploy; อย่าอ้าง Go 1.26 เป็นรุ่นล่าสุดโดยไม่ตรวจ |
+| Bun | Bun 1.4.4 เป็นรุ่นล่าสุดที่ตรวจ; 1.4 เพิ่ม HTTP/2 ใน `Bun.serve`, 1.4.4 แก้ regression ของ compile cache | runtime compatibility ยังต้องเช็ค library, native module, TLS และ deployment target |
+| TanStack Table | v9 stable ตั้งแต่ Aug 2026: tree-shakable feature plugins, TanStack Store-based state/fine-grained reactivity และ adapter เพิ่มขึ้น | v8 guide เก่าใช้ API คนละรุ่น; อ่าน migration guide ก่อนย้าย |
+| TanStack Form | v2 เป็น alpha ตามประกาศ Aug 2026; ปรับ validators/API จาก v1 | ใช้ v1 stable สำหรับ production เว้นแต่ยอมรับ prerelease risk และ pin alpha โดยตั้งใจ |
+| Prisma | Prisma ORM 8 ยังเป็น release candidate ณ หน้า status ที่ตรวจ; CLI และ database libraries ออกคนละ version; Prisma 7 ยังคงมี support | ตรวจ `prisma.config.ts`, client package/config และ migration guide ตาม major |
+| Tailwind CSS | v4.3 (May 2026): scrollbar utilities, logical properties, colors; v4 มี CSS-first config และ browser requirements ใหม่ | v3 กับ v4 syntax/config ไม่ควรผสม; เบราว์เซอร์เก่ากว่า baseline อาจต้องอยู่ v3.4 |
+| Vitest | 5.1 เป็น release train ปัจจุบัน; ต้องใช้ Vite >=6.4 และ Node >=22.12 ตาม migration guide | ตรวจ peer dependencies; Vitest major ไม่ได้ตาม Vite major แบบเลขเดียวกัน |
+| Playwright | Release notes ปัจจุบันถึง 1.65: test runner บน Bun, failures-only reporting; Node 20 ไม่อยู่ใน CI support แล้ว (ใช้ 22/24/26) | lock browser binaries ตาม Playwright version และอ่าน breaking changes ก่อนอัปเดต |
+| OAuth 2.0 | RFC 9700 คือ OAuth 2.0 Security BCP ที่ควรอ่านควบคู่ RFC 6749 | authorization code + PKCE และการลด insecure legacy flow เป็นประเด็นหลัก |
 
-## วิธีอัปเดตความรู้
+## รายการเทคโนโลยีทั้งหมด
 
-1. ก่อนเริ่มงาน/อัปเกรด เปิดเอกสารทางการและ release notes ของ dependency ที่ติดตั้งจริง
-2. บันทึก major/minor ที่มีผลต่อเนื้อหาในหน้า concept และเติมวันที่ `last_verified`
-3. แยก stable, beta, alpha และ experimental ให้ชัด; ห้ามนำ API จากคนละ major มารวมโดยไม่บอก
-4. ลิงก์นี้เป็น tracker สำหรับเริ่มตรวจ ไม่ได้หมายความว่าได้ตรวจทุก API ย่อยหรือทุก patch release
+ทุก overview มีคำอธิบายและแหล่งอ้างอิงเฉพาะรายการ ใช้ตารางนี้เปิดดูเป็นกลุ่ม:
+
+- [[Technology-Index]] — 45 technologies และ overview
+- [[Recent-Updates]] — สรุปการเปลี่ยนแปลงล่าสุดที่บันทึกเป็นเนื้อหา offline
+- [[Technology-Selection-Guide]] — เลือก technology ตามโจทย์
+
+## Workflow ดูแลข้อมูล offline
+
+1. อ่าน release notes, security advisories และ migration guide ของ dependency ที่โปรเจกต์ใช้อยู่จริง
+2. สรุปการเปลี่ยนแปลงที่กระทบความรู้ใน `Recent-Updates.md` และปรับ concept note แบบ local ไม่ฝากสาระสำคัญไว้ในลิงก์เว็บอย่างเดียว
+3. แก้ตัวอย่าง/API ให้ระบุ major/minor และ runtime; เพิ่ม `last_verified` หลังตรวจจริง
+4. ระบุความไม่แน่ใจหรือ prerelease ให้ชัด ห้ามทำให้ลิงก์ที่ยังไม่ได้อ่านดูเหมือนเนื้อหายืนยันแล้ว

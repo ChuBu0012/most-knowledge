@@ -1,12 +1,10 @@
 ---
 title: "Nginx"
 type: technology
-domain: nginx
+domain: infrastructure
 technology: "Nginx"
 level: beginner-to-advanced
-tags:
-  - nginx
-  - nginx
+tags: [technical-knowledge, infrastructure, nginx]
 status: overview
 last_verified: 2026-11-20
 sources:
@@ -37,6 +35,13 @@ sources:
 3. ศึกษาการจัดการ error, testing, security และ production configuration ที่เกี่ยวข้อง
 4. เปรียบเทียบ trade-offs กับทางเลือกที่ลิงก์ด้านล่างก่อนยึดเป็นมาตรฐานของโปรเจกต์
 
+## Update snapshot — 2026-11-20
+
+As of 20 Nov 2026, nginx 1.30.7 is the stable line and 1.31.9 is mainline. Security fixes released in October affected alias/rewrite, variable expressions, HTTP/3 request bodies, TLS session tickets, and SSI with AIO; distributions may backport fixes, so check vendor advisories too.
+
+แหล่งยืนยัน snapshot: - [https://nginx.org/en/download.html](https://nginx.org/en/download.html)
+- [https://nginx.org/en/](https://nginx.org/en/)
+
 ## ความสัมพันธ์กับเรื่องอื่น
 
 [[Docker]] · [[HTTP]] · [[FastAPI]]
@@ -46,3 +51,9 @@ sources:
 - [เอกสารทางการ](https://nginx.org/en/docs/)
 - [ข่าว/รุ่น/มาตรฐาน](https://nginx.org/en/CHANGES)
 - ตรวจลิงก์และสถานะเอกสารเมื่อ **2026-11-20**; หน้านี้ไม่ได้ pin patch version เพราะเอกสารต้นทางอัปเดตต่อเนื่อง
+
+## อ่านเนื้อหาออฟไลน์
+
+หัวข้อเหล่านี้อธิบายแนวคิดและการตัดสินใจที่เกี่ยวข้อง โดยเนื้อหาสำคัญอยู่ใน Vault ไม่ต้องเปิดเว็บเพื่ออ่านพื้นฐาน:
+
+[[Nginx Reverse Proxy Request Flow]] · [[HTTP Request Lifecycle]] · [[Cookie and Session Security]]

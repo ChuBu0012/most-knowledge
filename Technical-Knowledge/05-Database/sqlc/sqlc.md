@@ -1,12 +1,10 @@
 ---
 title: "sqlc"
 type: technology
-domain: sqlc
+domain: database
 technology: "sqlc"
 level: beginner-to-advanced
-tags:
-  - sqlc
-  - sqlc
+tags: [technical-knowledge, database, sqlc]
 status: overview
 last_verified: 2026-11-20
 sources:
@@ -37,6 +35,13 @@ sources:
 3. ศึกษาการจัดการ error, testing, security และ production configuration ที่เกี่ยวข้อง
 4. เปรียบเทียบ trade-offs กับทางเลือกที่ลิงก์ด้านล่างก่อนยึดเป็นมาตรฐานของโปรเจกต์
 
+## Update snapshot — 2026-11-20
+
+sqlc v1.31.1 is the current release line observed. The core workflow remains SQL-first: declare schema and queries, generate typed code, then review generated query behavior and database-specific support before upgrading.
+
+แหล่งยืนยัน snapshot: - [https://github.com/sqlc-dev/sqlc/releases](https://github.com/sqlc-dev/sqlc/releases)
+- [https://docs.sqlc.dev/en/latest/](https://docs.sqlc.dev/en/latest/)
+
 ## ความสัมพันธ์กับเรื่องอื่น
 
 [[Go]] · [[SQL]] · [[Database Transactions]]
@@ -46,3 +51,9 @@ sources:
 - [เอกสารทางการ](https://docs.sqlc.dev/en/latest/)
 - [ข่าว/รุ่น/มาตรฐาน](https://github.com/sqlc-dev/sqlc/releases)
 - ตรวจลิงก์และสถานะเอกสารเมื่อ **2026-11-20**; หน้านี้ไม่ได้ pin patch version เพราะเอกสารต้นทางอัปเดตต่อเนื่อง
+
+## อ่านเนื้อหาออฟไลน์
+
+หัวข้อเหล่านี้อธิบายแนวคิดและการตัดสินใจที่เกี่ยวข้อง โดยเนื้อหาสำคัญอยู่ใน Vault ไม่ต้องเปิดเว็บเพื่ออ่านพื้นฐาน:
+
+[[Database-Transactions]] · [[SQL Indexes and Query Plans]] · [[Database Connection Pooling]]

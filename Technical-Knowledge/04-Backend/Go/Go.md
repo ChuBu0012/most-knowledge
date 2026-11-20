@@ -1,17 +1,16 @@
 ---
 title: "Go"
 type: technology
-domain: go
+domain: backend
 technology: "Go"
 level: beginner-to-advanced
-tags:
-  - go
-  - go
+tags: [technical-knowledge, backend, go]
 status: overview
 last_verified: 2026-11-20
 sources:
   - https://go.dev/doc/
   - https://go.dev/doc/devel/release
+  - https://go.dev/doc/go1.27
 ---
 
 # Go
@@ -46,3 +45,17 @@ sources:
 - [เอกสารทางการ](https://go.dev/doc/)
 - [ข่าว/รุ่น/มาตรฐาน](https://go.dev/doc/devel/release)
 - ตรวจลิงก์และสถานะเอกสารเมื่อ **2026-11-20**; หน้านี้ไม่ได้ pin patch version เพราะเอกสารต้นทางอัปเดตต่อเนื่อง
+
+## อ่านเนื้อหาออฟไลน์
+
+หัวข้อเหล่านี้อธิบายแนวคิดและการตัดสินใจที่เกี่ยวข้อง โดยเนื้อหาสำคัญอยู่ใน Vault ไม่ต้องเปิดเว็บเพื่ออ่านพื้นฐาน:
+
+[[Go Error Handling]] · [[Go Goroutines]] · [[Go Channels]] · [[Go Context]]
+
+## Update snapshot — 2026-11-20
+
+Go 1.27.4 (10 Nov 2026) เป็น patch ล่าสุดที่ตรวจ; 1.27 เพิ่ม generic methods, `encoding/json/v2`/`jsontext`, UUID package และการปรับ TLS. `go.mod` version และ toolchain floor มีผลต่อ syntax/runtime ที่ใช้.
+
+## แนวคิดและคู่มือภายใน Vault
+
+[[Go Error Handling]] · [[Go Goroutines]] · [[Go Channels]] · [[Go Context]] · [[Technical-Knowledge/00-Home/Recent-Updates|สรุปอัปเดตทั้งหมด]]

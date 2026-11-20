@@ -1,12 +1,10 @@
 ---
 title: "VeeValidate"
 type: technology
-domain: veevalidate
+domain: frontend-libraries
 technology: "VeeValidate"
 level: beginner-to-advanced
-tags:
-  - veevalidate
-  - veevalidate
+tags: [technical-knowledge, frontend-libraries, veevalidate]
 status: overview
 last_verified: 2026-11-20
 sources:
@@ -37,6 +35,13 @@ sources:
 3. ศึกษาการจัดการ error, testing, security และ production configuration ที่เกี่ยวข้อง
 4. เปรียบเทียบ trade-offs กับทางเลือกที่ลิงก์ด้านล่างก่อนยึดเป็นมาตรฐานของโปรเจกต์
 
+## Update snapshot — 2026-11-20
+
+VeeValidate 4.9.6 is represented in the official changelog; recent 4.x fixes improve typed field-value APIs and blur-validation behavior. Treat form and field registration as lifecycle state, and ensure schema adapters agree on transformed output types.
+
+แหล่งยืนยัน snapshot: - [https://github.com/logaretm/vee-validate/blob/main/CHANGELOG.md](https://github.com/logaretm/vee-validate/blob/main/CHANGELOG.md)
+- [https://vee-validate.logaretm.com/v4/](https://vee-validate.logaretm.com/v4/)
+
 ## ความสัมพันธ์กับเรื่องอื่น
 
 [[Vue]] · [[Zod]] · [[Pinia]]
@@ -46,3 +51,9 @@ sources:
 - [เอกสารทางการ](https://vee-validate.logaretm.com/v4/)
 - [ข่าว/รุ่น/มาตรฐาน](https://github.com/logaretm/vee-validate/releases)
 - ตรวจลิงก์และสถานะเอกสารเมื่อ **2026-11-20**; หน้านี้ไม่ได้ pin patch version เพราะเอกสารต้นทางอัปเดตต่อเนื่อง
+
+## อ่านเนื้อหาออฟไลน์
+
+หัวข้อเหล่านี้อธิบายแนวคิดและการตัดสินใจที่เกี่ยวข้อง โดยเนื้อหาสำคัญอยู่ใน Vault ไม่ต้องเปิดเว็บเพื่ออ่านพื้นฐาน:
+
+[[Browser Form State]] · [[Zod Runtime Validation]] · [[Vue Reactivity and Computed State]]

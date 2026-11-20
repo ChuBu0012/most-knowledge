@@ -1,12 +1,10 @@
 ---
 title: "Redis"
 type: technology
-domain: redis
+domain: database
 technology: "Redis"
 level: beginner-to-advanced
-tags:
-  - redis
-  - redis
+tags: [technical-knowledge, database, redis]
 status: overview
 last_verified: 2026-11-20
 sources:
@@ -46,3 +44,17 @@ data platform แบบ in-memory ที่ใช้เป็น key-value store
 - [เอกสารทางการ](https://redis.io/docs/latest/)
 - [ข่าว/รุ่น/มาตรฐาน](https://redis.io/blog/)
 - ตรวจลิงก์และสถานะเอกสารเมื่อ **2026-11-20**; หน้านี้ไม่ได้ pin patch version เพราะเอกสารต้นทางอัปเดตต่อเนื่อง
+
+## อ่านเนื้อหาออฟไลน์
+
+หัวข้อเหล่านี้อธิบายแนวคิดและการตัดสินใจที่เกี่ยวข้อง โดยเนื้อหาสำคัญอยู่ใน Vault ไม่ต้องเปิดเว็บเพื่ออ่านพื้นฐาน:
+
+[[Redis Cache-Aside]] · [[Database-Transactions]]
+
+## Update snapshot — 2026-11-20
+
+Redis 8.10.3 latest tag ที่ตรวจ; release 8.10.2 มี security fixes เกี่ยวกับ transaction ACL และ unauthenticated cluster bus. ตรวจ cluster bus TLS, protected mode และ ACL policy ใน [releases](https://github.com/redis/redis/releases).
+
+## แนวคิดและคู่มือภายใน Vault
+
+[[Redis Cache-Aside]] · [[Database-Transactions]] · [[Technical-Knowledge/00-Home/Recent-Updates|สรุปอัปเดตทั้งหมด]]

@@ -1,12 +1,10 @@
 ---
 title: "TanStack Virtual"
 type: technology
-domain: tanstack
+domain: frontend-libraries
 technology: "TanStack Virtual"
 level: beginner-to-advanced
-tags:
-  - tanstack-virtual
-  - tanstack
+tags: [technical-knowledge, frontend-libraries, tanstack]
 status: overview
 last_verified: 2026-11-20
 sources:
@@ -37,6 +35,13 @@ virtualizer headless แสดงเฉพาะรายการที่ม�
 3. ศึกษาการจัดการ error, testing, security และ production configuration ที่เกี่ยวข้อง
 4. เปรียบเทียบ trade-offs กับทางเลือกที่ลิงก์ด้านล่างก่อนยึดเป็นมาตรฐานของโปรเจกต์
 
+## Update snapshot — 2026-11-20
+
+TanStack Virtual remains a headless virtualization engine. Validate measurement, overscan, stable item keys, and scroll restoration with the real layout: virtualization reduces mounted DOM work but does not reduce data-fetch or filtering cost.
+
+แหล่งยืนยัน snapshot: - [https://tanstack.com/virtual/latest/docs/introduction](https://tanstack.com/virtual/latest/docs/introduction)
+- [https://github.com/TanStack/virtual/releases](https://github.com/TanStack/virtual/releases)
+
 ## ความสัมพันธ์กับเรื่องอื่น
 
 [[TanStack Table]] · [[React]] · [[Vue]]
@@ -46,3 +51,9 @@ virtualizer headless แสดงเฉพาะรายการที่ม�
 - [เอกสารทางการ](https://tanstack.com/virtual/latest/docs/introduction)
 - [ข่าว/รุ่น/มาตรฐาน](https://tanstack.com/blog)
 - ตรวจลิงก์และสถานะเอกสารเมื่อ **2026-11-20**; หน้านี้ไม่ได้ pin patch version เพราะเอกสารต้นทางอัปเดตต่อเนื่อง
+
+## อ่านเนื้อหาออฟไลน์
+
+หัวข้อเหล่านี้อธิบายแนวคิดและการตัดสินใจที่เกี่ยวข้อง โดยเนื้อหาสำคัญอยู่ใน Vault ไม่ต้องเปิดเว็บเพื่ออ่านพื้นฐาน:
+
+[[List Virtualization and Windowing]] · [[TanStack Table]]

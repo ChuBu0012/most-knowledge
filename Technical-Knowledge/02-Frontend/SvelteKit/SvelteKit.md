@@ -1,12 +1,10 @@
 ---
 title: "SvelteKit"
 type: technology
-domain: sveltekit
+domain: frontend
 technology: "SvelteKit"
 level: beginner-to-advanced
-tags:
-  - sveltekit
-  - sveltekit
+tags: [technical-knowledge, frontend, sveltekit]
 status: overview
 last_verified: 2026-11-20
 sources:
@@ -46,3 +44,17 @@ Svelte application framework ที่จัดการ routing, server renderi
 - [เอกสารทางการ](https://svelte.dev/docs/kit/introduction)
 - [ข่าว/รุ่น/มาตรฐาน](https://svelte.dev/blog)
 - ตรวจลิงก์และสถานะเอกสารเมื่อ **2026-11-20**; หน้านี้ไม่ได้ pin patch version เพราะเอกสารต้นทางอัปเดตต่อเนื่อง
+
+## อ่านเนื้อหาออฟไลน์
+
+หัวข้อเหล่านี้อธิบายแนวคิดและการตัดสินใจที่เกี่ยวข้อง โดยเนื้อหาสำคัญอยู่ใน Vault ไม่ต้องเปิดเว็บเพื่ออ่านพื้นฐาน:
+
+[[Svelte Runes and Reactivity]] · [[Vite Development and Production Builds]] · [[Playwright Locators and Auto-Waiting]]
+
+## Update snapshot — 2026-11-20
+
+SvelteKit 3 stable และ `sv` 1.0 ตั้งแต่ 1 Oct 2026; migration command `npx sv migrate sveltekit-3` ช่วยอัปเดตได้บางส่วน แต่สร้าง TODO สำหรับ breaking changes ที่ต้องแก้เอง. อ่าน [SvelteKit 3 migration announcement](https://svelte.dev/blog/sveltekit-3-is-here).
+
+## แนวคิดและคู่มือภายใน Vault
+
+[[Svelte Runes and Reactivity]] · [[Vite Development and Production Builds]] · [[Technical-Knowledge/00-Home/Recent-Updates|สรุปอัปเดตทั้งหมด]]

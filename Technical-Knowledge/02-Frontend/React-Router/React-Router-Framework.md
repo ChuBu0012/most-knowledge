@@ -1,12 +1,10 @@
 ---
 title: "React Router Framework"
 type: technology
-domain: react-router
+domain: frontend
 technology: "React Router Framework"
 level: beginner-to-advanced
-tags:
-  - react-router-framework
-  - react-router
+tags: [technical-knowledge, frontend, react-router]
 status: overview
 last_verified: 2026-11-20
 sources:
@@ -46,3 +44,17 @@ React Router ใน Framework Mode เชื่อม route modules, data loadin
 - [เอกสารทางการ](https://reactrouter.com/start/framework/installation)
 - [ข่าว/รุ่น/มาตรฐาน](https://github.com/remix-run/react-router/releases)
 - ตรวจลิงก์และสถานะเอกสารเมื่อ **2026-11-20**; หน้านี้ไม่ได้ pin patch version เพราะเอกสารต้นทางอัปเดตต่อเนื่อง
+
+## อ่านเนื้อหาออฟไลน์
+
+หัวข้อเหล่านี้อธิบายแนวคิดและการตัดสินใจที่เกี่ยวข้อง โดยเนื้อหาสำคัญอยู่ใน Vault ไม่ต้องเปิดเว็บเพื่ออ่านพื้นฐาน:
+
+[[HTTP Request Lifecycle]] · [[HTTP Semantics and REST]] · [[React Server and Client Components]]
+
+## Update snapshot — 2026-11-20
+
+v8.5.2 (18 Nov 2026) แก้ metadata/navigation หลัง action error และ stream resource cleanup. v8.5 deprecates Router-owned view transition API เพื่อใช้ React 19.3 `<ViewTransition>`. อ่าน [changelog](https://reactrouter.com/changelog), โดยเฉพาะ migration และ request cancellation.
+
+## แนวคิดและคู่มือภายใน Vault
+
+[[HTTP Request Lifecycle]] · [[HTTP Semantics and REST]] · [[React Server and Client Components]] · [[Technical-Knowledge/00-Home/Recent-Updates|สรุปอัปเดตทั้งหมด]]

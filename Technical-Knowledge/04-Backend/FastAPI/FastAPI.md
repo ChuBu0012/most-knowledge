@@ -1,17 +1,16 @@
 ---
 title: "FastAPI"
 type: technology
-domain: fastapi
+domain: backend
 technology: "FastAPI"
 level: beginner-to-advanced
-tags:
-  - fastapi
-  - fastapi
+tags: [technical-knowledge, backend, fastapi]
 status: overview
 last_verified: 2026-11-20
 sources:
   - https://fastapi.tiangolo.com/
   - https://github.com/fastapi/fastapi/releases
+  - https://fastapi.tiangolo.com/release-notes/
 ---
 
 # FastAPI
@@ -46,3 +45,17 @@ Python API framework ใช้ type hints เพื่อ validation, OpenAPI sc
 - [เอกสารทางการ](https://fastapi.tiangolo.com/)
 - [ข่าว/รุ่น/มาตรฐาน](https://github.com/fastapi/fastapi/releases)
 - ตรวจลิงก์และสถานะเอกสารเมื่อ **2026-11-20**; หน้านี้ไม่ได้ pin patch version เพราะเอกสารต้นทางอัปเดตต่อเนื่อง
+
+## อ่านเนื้อหาออฟไลน์
+
+หัวข้อเหล่านี้อธิบายแนวคิดและการตัดสินใจที่เกี่ยวข้อง โดยเนื้อหาสำคัญอยู่ใน Vault ไม่ต้องเปิดเว็บเพื่ออ่านพื้นฐาน:
+
+[[HTTP Request Lifecycle]] · [[HTTP Semantics and REST]] · [[OpenAPI]] · [[OAuth Authorization Code with PKCE]]
+
+## Update snapshot — 2026-11-20
+
+FastAPI 0.163.1 (15 Nov 2026); 0.163 เพิ่ม dependency concurrency limits, 0.162.6 ตัด Python 3.10 support. Release notes สำคัญเพราะ runtime floor เปลี่ยนเร็ว.
+
+## แนวคิดและคู่มือภายใน Vault
+
+[[HTTP Request Lifecycle]] · [[HTTP Semantics and REST]] · [[OpenAPI]] · [[Technical-Knowledge/00-Home/Recent-Updates|สรุปอัปเดตทั้งหมด]]

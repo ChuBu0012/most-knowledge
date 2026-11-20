@@ -1,12 +1,10 @@
 ---
 title: "TypeScript"
 type: technology
-domain: type-system
+domain: fundamentals
 technology: "TypeScript"
 level: beginner-to-advanced
-tags:
-  - typescript
-  - type-system
+tags: [technical-knowledge, fundamentals, type-system]
 status: overview
 last_verified: 2026-11-20
 sources:
@@ -37,6 +35,13 @@ JavaScript ที่เพิ่มระบบชนิดข้อมูลแ
 3. ศึกษาการจัดการ error, testing, security และ production configuration ที่เกี่ยวข้อง
 4. เปรียบเทียบ trade-offs กับทางเลือกที่ลิงก์ด้านล่างก่อนยึดเป็นมาตรฐานของโปรเจกต์
 
+## Update snapshot — 2026-11-20
+
+TypeScript’s stable learning model remains gradual static checking over JavaScript: unions, control-flow narrowing, structural compatibility, generics, and compiler configuration. Check the official release notes and handbook before relying on newer syntax or compiler defaults.
+
+แหล่งยืนยัน snapshot: - [https://www.typescriptlang.org/docs/](https://www.typescriptlang.org/docs/)
+- [https://www.typescriptlang.org/docs/handbook/release-notes/](https://www.typescriptlang.org/docs/handbook/release-notes/)
+
 ## ความสัมพันธ์กับเรื่องอื่น
 
 [[JavaScript]] · [[Zod]] · [[React with TypeScript]]
@@ -46,3 +51,9 @@ JavaScript ที่เพิ่มระบบชนิดข้อมูลแ
 - [เอกสารทางการ](https://www.typescriptlang.org/docs/)
 - [ข่าว/รุ่น/มาตรฐาน](https://devblogs.microsoft.com/typescript/)
 - ตรวจลิงก์และสถานะเอกสารเมื่อ **2026-11-20**; หน้านี้ไม่ได้ pin patch version เพราะเอกสารต้นทางอัปเดตต่อเนื่อง
+
+## อ่านเนื้อหาออฟไลน์
+
+หัวข้อเหล่านี้อธิบายแนวคิดและการตัดสินใจที่เกี่ยวข้อง โดยเนื้อหาสำคัญอยู่ใน Vault ไม่ต้องเปิดเว็บเพื่ออ่านพื้นฐาน:
+
+[[TypeScript Type Narrowing]] · [[TypeScript Generics]] · [[TypeScript Structural Types]]

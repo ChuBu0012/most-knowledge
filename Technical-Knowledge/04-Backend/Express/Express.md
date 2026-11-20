@@ -1,12 +1,10 @@
 ---
 title: "Express"
 type: technology
-domain: express
+domain: backend
 technology: "Express"
 level: beginner-to-advanced
-tags:
-  - express
-  - express
+tags: [technical-knowledge, backend, express]
 status: overview
 last_verified: 2026-11-20
 sources:
@@ -46,3 +44,17 @@ minimal Node.js web framework ที่ใช้ middleware และ routing �
 - [เอกสารทางการ](https://expressjs.com/en/guide/routing.html)
 - [ข่าว/รุ่น/มาตรฐาน](https://expressjs.com/en/changelog/)
 - ตรวจลิงก์และสถานะเอกสารเมื่อ **2026-11-20**; หน้านี้ไม่ได้ pin patch version เพราะเอกสารต้นทางอัปเดตต่อเนื่อง
+
+## อ่านเนื้อหาออฟไลน์
+
+หัวข้อเหล่านี้อธิบายแนวคิดและการตัดสินใจที่เกี่ยวข้อง โดยเนื้อหาสำคัญอยู่ใน Vault ไม่ต้องเปิดเว็บเพื่ออ่านพื้นฐาน:
+
+[[HTTP Request Lifecycle]] · [[HTTP Semantics and REST]] · [[JavaScript Error Handling]]
+
+## Update snapshot — 2026-11-20
+
+Express 5.3.0 (9 Oct 2026) แก้ `res.send()` ไม่ให้ส่ง `Content-Length` พร้อม `Transfer-Encoding`. ตรวจ custom response middleware และ Node version ใน [releases](https://github.com/expressjs/express/releases).
+
+## แนวคิดและคู่มือภายใน Vault
+
+[[HTTP Request Lifecycle]] · [[HTTP Semantics and REST]] · [[JavaScript Error Handling]] · [[Technical-Knowledge/00-Home/Recent-Updates|สรุปอัปเดตทั้งหมด]]

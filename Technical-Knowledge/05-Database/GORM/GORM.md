@@ -1,12 +1,10 @@
 ---
 title: "GORM"
 type: technology
-domain: gorm
+domain: database
 technology: "GORM"
 level: beginner-to-advanced
-tags:
-  - gorm
-  - gorm
+tags: [technical-knowledge, database, gorm]
 status: overview
 last_verified: 2026-11-20
 sources:
@@ -37,6 +35,13 @@ ORM สำหรับ Go รองรับ model mapping, associations, callba
 3. ศึกษาการจัดการ error, testing, security และ production configuration ที่เกี่ยวข้อง
 4. เปรียบเทียบ trade-offs กับทางเลือกที่ลิงก์ด้านล่างก่อนยึดเป็นมาตรฐานของโปรเจกต์
 
+## Update snapshot — 2026-11-20
+
+GORM v1.31.2 is the latest release observed; its fixes include cleanup behavior when a row iteration panics. Keep transaction boundaries explicit, close rows, and inspect generated SQL for performance-sensitive queries.
+
+แหล่งยืนยัน snapshot: - [https://github.com/go-gorm/gorm/releases](https://github.com/go-gorm/gorm/releases)
+- [https://gorm.io/docs/](https://gorm.io/docs/)
+
 ## ความสัมพันธ์กับเรื่องอื่น
 
 [[Go]] · [[Database Transactions]] · [[sqlc]]
@@ -46,3 +51,9 @@ ORM สำหรับ Go รองรับ model mapping, associations, callba
 - [เอกสารทางการ](https://gorm.io/docs/)
 - [ข่าว/รุ่น/มาตรฐาน](https://github.com/go-gorm/gorm/releases)
 - ตรวจลิงก์และสถานะเอกสารเมื่อ **2026-11-20**; หน้านี้ไม่ได้ pin patch version เพราะเอกสารต้นทางอัปเดตต่อเนื่อง
+
+## อ่านเนื้อหาออฟไลน์
+
+หัวข้อเหล่านี้อธิบายแนวคิดและการตัดสินใจที่เกี่ยวข้อง โดยเนื้อหาสำคัญอยู่ใน Vault ไม่ต้องเปิดเว็บเพื่ออ่านพื้นฐาน:
+
+[[Go Error Handling]] · [[Database-Transactions]] · [[Database Connection Pooling]]

@@ -22,8 +22,9 @@ last_verified: 2026-11-20
 ## แผนที่
 
 - [[Technology-Index|Technology Index]] — เลือกจากงานและเปิด overview ของแต่ละรายการ
-- [[10-Comparisons/Technology-Selection-Guide|Technology Selection Guide]] — เทียบตัวเลือกตามโจทย์
+- [[Technical-Knowledge/10-Comparisons/Technology-Selection-Guide|Technology Selection Guide]] — เทียบตัวเลือกตามโจทย์
 - [[Knowledge-Map|Knowledge Map]] — ความสัมพันธ์และลำดับพื้นฐาน
+- [[Concept-Index|Concept Index]] — เปิดอ่านกลไกย่อยแบบ offline
 - [[Version-Matrix|Version & Update Tracker]] — วิธีตรวจข้อมูลล่าสุดและสถานะที่ตรวจแล้ว
 - [[Glossary|Glossary]] — คำศัพท์ร่วม
 
